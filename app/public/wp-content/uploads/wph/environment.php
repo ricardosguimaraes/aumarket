@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"listivo","mapped_name":""},"child_theme":{"folder_name":"listivo-child","mapped_name":""},"allowed_paths":["\/var\/www\/vhosts\/agenciacolors.tech\/aumarket.agenciacolors.tech\/wp-content\/themes"],"cache_path":"\/var\/www\/vhosts\/agenciacolors.tech\/aumarket.agenciacolors.tech\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>

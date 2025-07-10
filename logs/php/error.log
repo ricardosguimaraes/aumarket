@@ -1,0 +1,240 @@
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: listivo/notifications/modelExpire/check, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: listivo/models/checkExpired, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: listivo/models/checkBumps, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: listivo/notifications/send, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Jun-2025 19:46:55 UTC] Cron reschedule event error for hook: listivo/directMessages/notifications, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_five_minutes","args":[],"interval":300}
+[18-Jun-2025 19:55:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant Tangibledesign\Framework\Models\User\Helpers\UserSettingKey::COVER_IMAGE in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\User\Helpers\HasImage.php:99
+Stack trace:
+#0 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\User\Helpers\HasImage.php(107): Tangibledesign\Framework\Models\User\User->getCoverImageId()
+#1 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings\cover_image.php(16): Tangibledesign\Framework\Models\User\User->getCoverImage()
+#2 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#3 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#4 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings.php(43): get_template_part('templates/widge...')
+#6 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#7 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#8 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#9 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(101): get_template_part('templates/widge...')
+#10 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\panel.php(6): Tangibledesign\Framework\Widgets\General\PanelWidget->loadPanelTemplate()
+#11 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#12 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#13 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(81): get_template_part('templates/widge...')
+#15 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(61): Tangibledesign\Framework\Widgets\General\PanelWidget->loadTemplate()
+#16 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#17 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#18 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#19 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#20 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#21 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#22 [internal function]: do_shortcode_tag(Array)
+#23 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '\t\t<section clas...')
+#24 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('\t\t<section clas...')
+#25 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#26 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#27 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1098): Elementor\Frontend->get_builder_content(6181)
+#28 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<a\n            ...')
+#29 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a\n            ...', Array)
+#30 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(76): apply_filters('the_content', '<a\n            ...')
+#31 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(27): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderPage()
+#32 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(59): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderContent()
+#33 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#34 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#35 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#36 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#37 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#38 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#39 [internal function]: do_shortcode_tag(Array)
+#40 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#41 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('<div class="ele...')
+#42 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#43 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#44 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1271): Elementor\Frontend->get_builder_content(5815, false)
+#45 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\Template\LayoutTemplate.php(20): Elementor\Frontend->get_builder_content_for_display(5815)
+#46 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Providers\TemplateLoaderServiceProvider.php(48): Tangibledesign\Framework\Models\Template\LayoutTemplate->display()
+#47 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Tangibledesign\Framework\Providers\TemplateLoaderServiceProvider->render('')
+#48 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#49 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#50 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\basic.php(257): do_action('listivo/templat...')
+#51 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\page.php(8): listivo_load_template('templates/blog/...')
+#52 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ricar\\...')
+#53 C:\Users\ricar\Local Sites\aumarket\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ricar\\...')
+#54 C:\Users\ricar\Local Sites\aumarket\app\public\index.php(17): require('C:\\Users\\ricar\\...')
+#55 {main}
+  thrown in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\User\Helpers\HasImage.php on line 99
+[18-Jun-2025 19:57:55 UTC] PHP Fatal error:  Uncaught TypeError: tdf_string(): Return value must be of type string, null returned in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\functions.php:114
+Stack trace:
+#0 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings\cover_image.php(39): tdf_string('cover_image')
+#1 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#2 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#3 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#4 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings.php(43): get_template_part('templates/widge...')
+#5 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#6 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#7 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#8 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(101): get_template_part('templates/widge...')
+#9 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\panel.php(6): Tangibledesign\Framework\Widgets\General\PanelWidget->loadPanelTemplate()
+#10 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#11 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#12 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#13 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(81): get_template_part('templates/widge...')
+#14 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(61): Tangibledesign\Framework\Widgets\General\PanelWidget->loadTemplate()
+#15 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#16 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#17 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#18 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#19 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#20 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#21 [internal function]: do_shortcode_tag(Array)
+#22 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '\t\t<section clas...')
+#23 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('\t\t<section clas...')
+#24 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#25 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#26 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1098): Elementor\Frontend->get_builder_content(6181)
+#27 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<a\n            ...')
+#28 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a\n            ...', Array)
+#29 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(76): apply_filters('the_content', '<a\n            ...')
+#30 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(27): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderPage()
+#31 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(59): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderContent()
+#32 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#33 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#34 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#35 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#36 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#37 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#38 [internal function]: do_shortcode_tag(Array)
+#39 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#40 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('<div class="ele...')
+#41 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#42 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#43 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1271): Elementor\Frontend->get_builder_content(5815, false)
+#44 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\Template\LayoutTemplate.php(20): Elementor\Frontend->get_builder_content_for_display(5815)
+#45 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Providers\TemplateLoaderServiceProvider.php(48): Tangibledesign\Framework\Models\Template\LayoutTemplate->display()
+#46 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Tangibledesign\Framework\Providers\TemplateLoaderServiceProvider->render('')
+#47 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#48 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#49 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\basic.php(257): do_action('listivo/templat...')
+#50 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\page.php(8): listivo_load_template('templates/blog/...')
+#51 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ricar\\...')
+#52 C:\Users\ricar\Local Sites\aumarket\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ricar\\...')
+#53 C:\Users\ricar\Local Sites\aumarket\app\public\index.php(17): require('C:\\Users\\ricar\\...')
+#54 {main}
+  thrown in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\functions.php on line 114
+[18-Jun-2025 19:58:56 UTC] PHP Fatal error:  Uncaught TypeError: tdf_string(): Return value must be of type string, null returned in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\functions.php:114
+Stack trace:
+#0 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(348): tdf_string('add_cover_image')
+#1 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings\cover_image.php(57): Tangibledesign\Framework\Widgets\General\PanelWidget->getUserCoverImageDropZoneConfig()
+#2 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#3 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#4 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\settings.php(43): get_template_part('templates/widge...')
+#6 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#7 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#8 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#9 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(101): get_template_part('templates/widge...')
+#10 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\templates\widgets\general\panel\panel.php(6): Tangibledesign\Framework\Widgets\General\PanelWidget->loadPanelTemplate()
+#11 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(812): require('C:\\Users\\ricar\\...')
+#12 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ricar\\...', false, Array)
+#13 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\General\PanelWidget.php(81): get_template_part('templates/widge...')
+#15 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(61): Tangibledesign\Framework\Widgets\General\PanelWidget->loadTemplate()
+#16 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#17 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#18 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#19 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#20 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#21 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#22 [internal function]: do_shortcode_tag(Array)
+#23 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '\t\t<section clas...')
+#24 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('\t\t<section clas...')
+#25 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#26 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#27 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1098): Elementor\Frontend->get_builder_content(6181)
+#28 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<a\n            ...')
+#29 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a\n            ...', Array)
+#30 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(76): apply_filters('the_content', '<a\n            ...')
+#31 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\TemplateLoaderWidget.php(27): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderPage()
+#32 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Widgets\Widget.php(59): Tangibledesign\Framework\Widgets\TemplateLoaderWidget->renderContent()
+#33 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Tangibledesign\Framework\Widgets\Widget->render()
+#34 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#35 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(774): Elementor\Widget_Base->render_content()
+#36 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\base\element-base.php(482): Elementor\Widget_Base->print_content()
+#37 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(74): Elementor\Element_Base->print_element()
+#38 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#39 [internal function]: do_shortcode_tag(Array)
+#40 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#41 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1867): do_shortcode('<div class="ele...')
+#42 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\core\base\document.php(1202): Elementor\Core\Base\Document->print_elements(Array)
+#43 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#44 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\includes\frontend.php(1271): Elementor\Frontend->get_builder_content(5815, false)
+#45 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Models\Template\LayoutTemplate.php(20): Elementor\Frontend->get_builder_content_for_display(5815)
+#46 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\app\Providers\TemplateLoaderServiceProvider.php(48): Tangibledesign\Framework\Models\Template\LayoutTemplate->display()
+#47 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(324): Tangibledesign\Framework\Providers\TemplateLoaderServiceProvider->render('')
+#48 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#49 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#50 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\basic.php(257): do_action('listivo/templat...')
+#51 C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\themes\listivo\page.php(8): listivo_load_template('templates/blog/...')
+#52 C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ricar\\...')
+#53 C:\Users\ricar\Local Sites\aumarket\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ricar\\...')
+#54 C:\Users\ricar\Local Sites\aumarket\app\public\index.php(17): require('C:\\Users\\ricar\\...')
+#55 {main}
+  thrown in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\listivo-core\framework\functions.php on line 114
+[18-Jun-2025 20:07:03 UTC] --- saveCoverImage ---
+[18-Jun-2025 20:07:03 UTC] POST: Array
+(
+    [nonce] => 8187301666
+)
+
+[18-Jun-2025 20:07:03 UTC] FILES: Array
+(
+    [file] => Array
+        (
+            [name] => bg-cta-home1.jpg
+            [full_path] => bg-cta-home1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\Windows\Temp\php5D4A.tmp
+            [error] => 0
+            [size] => 175318
+        )
+
+)
+
+[18-Jun-2025 20:07:03 UTC] Nonce OK: SIM
+[18-Jun-2025 20:19:46 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 20:50:06 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 20:55:29 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 20:56:25 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 20:56:29 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 20:56:36 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 21:02:04 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 21:02:24 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[18-Jun-2025 22:37:11 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:42:50 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:43:55 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\ricar\Local Sites\aumarket\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[20-Jun-2025 18:44:20 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:44:21 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:44:24 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:45:31 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:45:31 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:46:06 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:46:06 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:46:35 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 18:49:19 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[20-Jun-2025 20:26:01 UTC] Cron reschedule event error for hook: listivo/models/checkBumps, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: listivo/directMessages/notifications, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_five_minutes","args":[],"interval":300}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: listivo/models/checkBumps, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: listivo/models/checkExpired, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: listivo/notifications/send, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: listivo/notifications/modelExpire/check, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 11:24:37 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Jul-2025 12:06:42 UTC] WordPress database error Table 'local.wp_options' doesn't exist for query SELECT option_value FROM wp_options WHERE option_name = 'jet_engine_modules' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Jet_Engine->init, Jet_Engine_Modules->__construct, Jet_Engine_Modules->init_active_modules, Jet_Engine_Modules->get_active_modules, get_option
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: listivo/directMessages/notifications, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_five_minutes","args":[],"interval":300}
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: listivo/models/checkBumps, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: listivo/models/checkExpired, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: listivo/notifications/send, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: listivo/notifications/modelExpire/check, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":[],"interval":60}
+[10-Jul-2025 12:06:52 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Jul-2025 12:48:41 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[10-Jul-2025 12:59:24 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[10-Jul-2025 13:05:22 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
