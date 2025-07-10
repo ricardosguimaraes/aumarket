@@ -1,0 +1,4797 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Listivo Core\n"
+"POT-Creation-Date: 2021-12-06 08:39+0200\n"
+"PO-Revision-Date: 2021-11-05 12:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: listivo-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: config/admin_strings.php:5 config/posttypes.php:29
+msgid "Template"
+msgstr ""
+
+#: config/admin_strings.php:6 config/dashboard.php:17 config/posttypes.php:28
+#: views/dashboard/header.php:45
+msgid "Templates"
+msgstr ""
+
+#: config/admin_strings.php:7 config/posttypes.php:10
+#: src/Widgets/Listing/ListingAttributesWidget.php:79
+#: views/dashboard/custom_fields.php:103 views/dashboard/fields/field.php:21
+msgid "Field"
+msgstr ""
+
+#: config/admin_strings.php:8 config/posttypes.php:9
+#: src/Widgets/General/SearchFormWidget.php:117
+#: src/Widgets/Listing/ListingAttributesWidget.php:105
+#: views/dashboard/custom_fields.php:105
+msgid "Fields"
+msgstr ""
+
+#: config/admin_strings.php:9
+msgid "Panel"
+msgstr ""
+
+#: config/admin_strings.php:10 config/admin_strings.php:11
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: config/admin_strings.php:12
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: config/admin_strings.php:13
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: config/admin_strings.php:14
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: config/admin_strings.php:15
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: config/admin_strings.php:16
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: config/admin_strings.php:17
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: config/admin_strings.php:18 views/term/create.php:28 views/term/edit.php:35
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: config/admin_strings.php:19
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: config/admin_strings.php:20
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: config/admin_strings.php:21
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: config/admin_strings.php:22 views/dashboard/header.php:178
+#: views/dashboard/partials/currencies.php:7
+msgid "Currencies"
+msgstr ""
+
+#: config/admin_strings.php:23 config/strings.php:66 config/taxonomies.php:8
+msgid "Currency"
+msgstr ""
+
+#: config/admin_strings.php:24
+msgid "Search Currencies"
+msgstr ""
+
+#: config/admin_strings.php:25
+msgid "Popular Currencies"
+msgstr ""
+
+#: config/admin_strings.php:26
+msgid "All Currencies"
+msgstr ""
+
+#: config/admin_strings.php:27
+msgid "Edit Currency"
+msgstr ""
+
+#: config/admin_strings.php:28
+msgid "Update Currency"
+msgstr ""
+
+#: config/admin_strings.php:29 views/dashboard/partials/currencies.php:161
+msgid "Add New Currency"
+msgstr ""
+
+#: config/admin_strings.php:30
+msgid "New Currency Name"
+msgstr ""
+
+#: config/admin_strings.php:31
+msgid "Separate currencies with commas"
+msgstr ""
+
+#: config/admin_strings.php:32
+msgid "Add or remove currencies"
+msgstr ""
+
+#: config/admin_strings.php:33
+msgid "Choose from the most used currencies"
+msgstr ""
+
+#: config/admin_strings.php:34
+msgid "No currencies found."
+msgstr ""
+
+#: config/admin_strings.php:35 src/Widgets/General/HeroSearchV2Widget.php:142
+#: src/Widgets/General/HierarchicalTermsWidget.php:71
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:86
+#: src/Widgets/General/ListingListWidget.php:164
+#: src/Widgets/General/MainCategoriesWidget.php:54
+#: views/dashboard/partials/term_importer.php:49
+msgid "Taxonomy"
+msgstr ""
+
+#: config/admin_strings.php:36
+msgid "Taxonomies"
+msgstr ""
+
+#: config/admin_strings.php:37 src/Providers/ColorsServiceProvider.php:70
+#: src/Widgets/General/CallToActionSectionWidget.php:152
+#: src/Widgets/General/HeadingWidget.php:68
+#: src/Widgets/General/HeroSearchV3Widget.php:96
+#: src/Widgets/General/HeroSearchV3Widget.php:128
+#: src/Widgets/General/InfoWidget.php:90 src/Widgets/General/InfoWidget.php:111
+#: src/Widgets/General/InfoWidget.php:161
+#: src/Widgets/General/SubheadingWidget.php:56
+#: src/Widgets/Helpers/Controls/HeadingControls.php:31
+msgid "Text"
+msgstr ""
+
+#: config/admin_strings.php:38
+msgid "Rich Text"
+msgstr ""
+
+#: config/admin_strings.php:39 src/Widgets/General/PopularSearchesWidget.php:78
+#: views/dashboard/partials/register_package.php:26
+msgid "Number"
+msgstr ""
+
+#: config/admin_strings.php:40 config/strings.php:50
+msgid "Price"
+msgstr ""
+
+#: config/admin_strings.php:41 config/strings.php:20
+msgid "Location"
+msgstr ""
+
+#: config/admin_strings.php:42
+msgid "Embed"
+msgstr ""
+
+#: config/admin_strings.php:43
+msgid "Gallery"
+msgstr ""
+
+#: config/admin_strings.php:44 config/strings.php:275
+msgid "Attachments"
+msgstr ""
+
+#: config/admin_strings.php:45
+msgid "Attachments Field"
+msgstr ""
+
+#: config/admin_strings.php:46 src/Widgets/General/InfoWidget.php:127
+msgid "Attributes"
+msgstr ""
+
+#: config/admin_strings.php:47
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: config/admin_strings.php:48
+msgid "Layout"
+msgstr ""
+
+#: config/admin_strings.php:49
+msgid "Layouts"
+msgstr ""
+
+#: config/admin_strings.php:50
+msgid "Blog Single Page"
+msgstr ""
+
+#: config/admin_strings.php:51 views/dashboard/header.php:270
+#: views/dashboard/partials/pages.php:104
+msgid "Blog Page"
+msgstr ""
+
+#: config/admin_strings.php:52 config/strings.php:85
+msgid "User"
+msgstr ""
+
+#: config/admin_strings.php:53 views/dashboard/header.php:256
+msgid "User Page"
+msgstr ""
+
+#: config/admin_strings.php:54
+msgid "New Template"
+msgstr ""
+
+#: config/admin_strings.php:55
+msgid "Template Loader"
+msgstr ""
+
+#: config/admin_strings.php:56
+msgid "Preview User"
+msgstr ""
+
+#: config/admin_strings.php:57
+msgid "Preview Post"
+msgstr ""
+
+#: config/admin_strings.php:58
+msgid "Blog Post Name"
+msgstr ""
+
+#: config/admin_strings.php:59
+msgid "Blog Post"
+msgstr ""
+
+#: config/admin_strings.php:60 views/dashboard/header.php:203
+#: views/dashboard/partials/notifications_general.php:21
+#: views/dashboard/partials/user_panel.php:3
+msgid "General"
+msgstr ""
+
+#: config/admin_strings.php:61 src/Widgets/General/BreadcrumbsWidget.php:41
+#: src/Widgets/General/HeroSearchV3Widget.php:164
+msgid "Typography"
+msgstr ""
+
+#: config/admin_strings.php:62 src/Widgets/General/BreadcrumbsWidget.php:49
+#: src/Widgets/General/HeroSearchV3Widget.php:173
+#: src/Widgets/General/SeparatorWidget.php:39
+#: src/Widgets/General/ShapeWidget.php:87
+msgid "Color"
+msgstr ""
+
+#: config/admin_strings.php:63 src/Widgets/General/BreadcrumbsWidget.php:60
+msgid "Color Hover"
+msgstr ""
+
+#: config/admin_strings.php:64
+msgid "Text Align"
+msgstr ""
+
+#: config/admin_strings.php:65
+#: src/Widgets/Listing/ListingAttributesWidget.php:43
+msgid "Align"
+msgstr ""
+
+#: config/admin_strings.php:66
+msgid "HTML Tag"
+msgstr ""
+
+#: config/admin_strings.php:67
+msgid "User Name"
+msgstr ""
+
+#: config/admin_strings.php:68
+msgid "Left"
+msgstr ""
+
+#: config/admin_strings.php:69
+msgid "Center"
+msgstr ""
+
+#: config/admin_strings.php:70
+msgid "Right"
+msgstr ""
+
+#: config/admin_strings.php:71
+msgid "Justify"
+msgstr ""
+
+#: config/admin_strings.php:72 src/Widgets/General/MainCategoriesWidget.php:109
+#: src/Widgets/General/ServicesWidget.php:43
+msgid "Background Color"
+msgstr ""
+
+#: config/admin_strings.php:73
+msgid "Background Color Hover"
+msgstr ""
+
+#: config/admin_strings.php:74 src/Widgets/General/HeroSearchV2Widget.php:180
+#: src/Widgets/General/HierarchicalTermsWidget.php:81
+#: src/Widgets/General/MainCategoriesWidget.php:92
+msgid "Term"
+msgstr ""
+
+#: config/admin_strings.php:75 src/Widgets/General/InfoWidget.php:50
+msgid "Image"
+msgstr ""
+
+#: config/admin_strings.php:76 src/Widgets/General/HeroSearchV2Widget.php:197
+#: src/Widgets/General/HierarchicalTermsWidget.php:95
+#: src/Widgets/General/ListingListWidget.php:174
+#: src/Widgets/General/MainCategoriesWidget.php:133
+#: views/dashboard/partials/term_importer.php:79
+msgid "Terms"
+msgstr ""
+
+#: config/admin_strings.php:77
+msgid "Image Size"
+msgstr ""
+
+#: config/admin_strings.php:78 src/Widgets/General/TestimonialsWidget.php:30
+msgid "Testimonials"
+msgstr ""
+
+#: config/admin_strings.php:79 config/strings.php:7
+#: src/Widgets/General/HierarchicalTermsWidget.php:185
+#: src/Widgets/General/ServicesV2Widget.php:51
+#: views/dashboard/custom_fields.php:126 views/dashboard/fields/field.php:47
+#: views/dashboard/partials/currencies.php:24
+#: views/dashboard/partials/currencies.php:82
+#: views/dashboard/partials/payment_packages.php:57
+msgid "Name"
+msgstr ""
+
+#: config/admin_strings.php:80 views/user/partials/details.php:112
+msgid "Job Title"
+msgstr ""
+
+#: config/admin_strings.php:81
+msgid "Source"
+msgstr ""
+
+#: config/admin_strings.php:82
+msgid "Autoplay"
+msgstr ""
+
+#: config/admin_strings.php:83
+msgid "Autoplay Delay"
+msgstr ""
+
+#: config/admin_strings.php:84 src/Widgets/General/ServicesV2Widget.php:67
+msgid "Services"
+msgstr ""
+
+#: config/admin_strings.php:85 src/Widgets/General/InfoWidget.php:71
+msgid "Title"
+msgstr ""
+
+#: config/admin_strings.php:86 views/dashboard/header.php:143
+#: views/dashboard/partials/header.php:10
+msgid "Menu"
+msgstr ""
+
+#: config/admin_strings.php:87 src/Widgets/General/InfoWidget.php:169
+msgid "Destination"
+msgstr ""
+
+#: config/admin_strings.php:88 src/Widgets/General/BlogPostsV1Widget.php:80
+#: src/Widgets/General/ButtonWidget.php:28
+#: src/Widgets/General/InfoWidget.php:153
+#: src/Widgets/General/ListingListWidget.php:135
+msgid "Button"
+msgstr ""
+
+#: config/admin_strings.php:89 config/strings.php:288
+msgid "Blog"
+msgstr ""
+
+#: config/admin_strings.php:90 config/strings.php:84
+msgid "Phone"
+msgstr ""
+
+#: config/admin_strings.php:91 src/Widgets/General/SocialProfilesWidget.php:31
+#: views/dashboard/header.php:157 views/dashboard/partials/social_media.php:9
+msgid "Social Profiles"
+msgstr ""
+
+#: config/admin_strings.php:92
+msgid "Accordion"
+msgstr ""
+
+#: config/admin_strings.php:93
+msgid "Items"
+msgstr ""
+
+#: config/admin_strings.php:94 config/strings.php:39
+#: src/Widgets/General/LoanCalculatorLinkWidget.php:57
+#: views/dashboard/monetization.php:120
+#: views/dashboard/partials/payment_packages.php:70
+msgid "Label"
+msgstr ""
+
+#: config/admin_strings.php:95
+msgid "Contact Form"
+msgstr ""
+
+#: config/admin_strings.php:96
+msgid "About"
+msgstr ""
+
+#: config/admin_strings.php:97 config/strings.php:177
+msgid "Address"
+msgstr ""
+
+#: config/admin_strings.php:98
+msgid "E-Mail"
+msgstr ""
+
+#: config/admin_strings.php:99 views/dashboard/header.php:122
+#: views/dashboard/partials/logo.php:8
+msgid "Logo"
+msgstr ""
+
+#: config/admin_strings.php:100
+msgid "Size"
+msgstr ""
+
+#: config/admin_strings.php:101 src/Widgets/General/ButtonWidget.php:53
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:75
+#: src/Widgets/General/ShapeWidget.php:101
+#: views/dashboard/custom_fields.php:134 views/dashboard/fields/field.php:30
+msgid "Type"
+msgstr ""
+
+#: config/admin_strings.php:102 views/dashboard/partials/logo.php:20
+#: views/dashboard/partials/templates.php:36
+msgid "Default"
+msgstr ""
+
+#: config/admin_strings.php:103
+msgid "Inverse"
+msgstr ""
+
+#: config/admin_strings.php:104
+msgid "Alignment"
+msgstr ""
+
+#: config/admin_strings.php:105
+msgid "Simple Menu"
+msgstr ""
+
+#: config/admin_strings.php:106
+msgid "Global"
+msgstr ""
+
+#: config/admin_strings.php:107
+#: src/Widgets/General/HierarchicalTermsWidget.php:157
+msgid "Limit"
+msgstr ""
+
+#: config/admin_strings.php:108
+msgid "Tags"
+msgstr ""
+
+#: config/admin_strings.php:109 config/strings.php:276
+#: src/Widgets/General/HeroSearchV2Widget.php:60
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:100
+msgid "Categories"
+msgstr ""
+
+#: config/admin_strings.php:110
+msgid "Authors"
+msgstr ""
+
+#: config/admin_strings.php:111
+msgid "Offset"
+msgstr ""
+
+#: config/admin_strings.php:112
+msgid "Excerpt Length"
+msgstr ""
+
+#: config/admin_strings.php:113
+msgid "Excerpt End"
+msgstr ""
+
+#: config/admin_strings.php:114
+msgid "Blog Post Image"
+msgstr ""
+
+#: config/admin_strings.php:115
+msgid "User Image"
+msgstr ""
+
+#: config/admin_strings.php:116
+msgid "Border Radius"
+msgstr ""
+
+#: config/admin_strings.php:117
+msgid "Border Radius Hover"
+msgstr ""
+
+#: config/admin_strings.php:118
+msgid "Border"
+msgstr ""
+
+#: config/admin_strings.php:119
+msgid "Border Color"
+msgstr ""
+
+#: config/admin_strings.php:120
+msgid "Border Hover"
+msgstr ""
+
+#: config/admin_strings.php:121
+msgid "Blog Post Comments Number"
+msgstr ""
+
+#: config/admin_strings.php:122
+msgid "User Job Title"
+msgstr ""
+
+#: config/admin_strings.php:123
+msgid "User Phone"
+msgstr ""
+
+#: config/admin_strings.php:124
+msgid "User Address"
+msgstr ""
+
+#: config/admin_strings.php:125
+msgid "User Social Profiles"
+msgstr ""
+
+#: config/admin_strings.php:126
+msgid "No Settings"
+msgstr ""
+
+#: config/admin_strings.php:127
+msgid "User Description"
+msgstr ""
+
+#: config/admin_strings.php:128
+msgid "Blog Post Publish Date"
+msgstr ""
+
+#: config/admin_strings.php:129
+msgid "Blog Post Content"
+msgstr ""
+
+#: config/admin_strings.php:130
+msgid "Blog Post Tags"
+msgstr ""
+
+#: config/admin_strings.php:131
+msgid "Blog Post Categories"
+msgstr ""
+
+#: config/admin_strings.php:132
+msgid "Social Share"
+msgstr ""
+
+#: config/admin_strings.php:133
+msgid "Display Facebook"
+msgstr ""
+
+#: config/admin_strings.php:134
+msgid "Display Twitter"
+msgstr ""
+
+#: config/admin_strings.php:135
+msgid "Blog Post Comments"
+msgstr ""
+
+#: config/admin_strings.php:136
+msgid "Related Blog Posts"
+msgstr ""
+
+#: config/admin_strings.php:137
+msgid "Location Field"
+msgstr ""
+
+#: config/admin_strings.php:138
+msgid "Create location field first"
+msgstr ""
+
+#: config/admin_strings.php:139
+msgid "Create price field first"
+msgstr ""
+
+#: config/admin_strings.php:140
+msgid "Embed Field"
+msgstr ""
+
+#: config/admin_strings.php:141
+msgid "Create embed field first"
+msgstr ""
+
+#: config/admin_strings.php:142
+msgid "Text Field"
+msgstr ""
+
+#: config/admin_strings.php:143
+msgid "Number Field"
+msgstr ""
+
+#: config/admin_strings.php:144
+msgid "Create number field first"
+msgstr ""
+
+#: config/admin_strings.php:145
+msgid "Rich Text Field"
+msgstr ""
+
+#: config/admin_strings.php:146
+msgid "Create rich text field first"
+msgstr ""
+
+#: config/admin_strings.php:147
+msgid "User Hidden Phone"
+msgstr ""
+
+#: config/admin_strings.php:148
+msgid "User Profile"
+msgstr ""
+
+#: config/admin_strings.php:149
+msgid "User Profiles"
+msgstr ""
+
+#: config/admin_strings.php:150
+msgid "Users"
+msgstr ""
+
+#: config/admin_strings.php:151
+msgid "Open First"
+msgstr ""
+
+#: config/admin_strings.php:152 views/dashboard/partials/listing_card.php:86
+msgid "Gallery Field"
+msgstr ""
+
+#: config/admin_strings.php:153
+msgid "Create gallery field first"
+msgstr ""
+
+#: config/admin_strings.php:154
+msgid "Create attachments field first"
+msgstr ""
+
+#: config/admin_strings.php:155
+#: src/Widgets/Listing/ListingAttributesWidget.php:89
+msgid "Display Label"
+msgstr ""
+
+#: config/admin_strings.php:156 src/Widgets/General/SearchWidget.php:104
+msgid "Search Fields"
+msgstr ""
+
+#: config/admin_strings.php:157
+msgid "Control"
+msgstr ""
+
+#: config/admin_strings.php:158
+msgid "Searchable"
+msgstr ""
+
+#: config/admin_strings.php:159
+msgid "Term Count"
+msgstr ""
+
+#: config/admin_strings.php:160
+msgid "Placeholder"
+msgstr ""
+
+#: config/admin_strings.php:161 config/strings.php:115
+#: views/dashboard/fields/field.php:165
+#: views/dashboard/partials/term_importer.php:62
+msgid "Select"
+msgstr ""
+
+#: config/admin_strings.php:162
+msgid "Select Multiple"
+msgstr ""
+
+#: config/admin_strings.php:163
+msgid "Custom Order"
+msgstr ""
+
+#: config/admin_strings.php:164
+msgid "Hide"
+msgstr ""
+
+#: config/admin_strings.php:165 views/dashboard/partials/phone_logic.php:49
+msgid "Disable"
+msgstr ""
+
+#: config/admin_strings.php:166
+#: src/Widgets/General/HierarchicalTermsWidget.php:186
+msgid "Count"
+msgstr ""
+
+#: config/admin_strings.php:167
+msgid "Custom"
+msgstr ""
+
+#: config/admin_strings.php:168
+msgid "Terms Order"
+msgstr ""
+
+#: config/admin_strings.php:169
+msgid "When term has no results"
+msgstr ""
+
+#: config/admin_strings.php:170
+msgid "Disable until parent field is selected"
+msgstr ""
+
+#: config/admin_strings.php:171
+msgid "Text Input Range"
+msgstr ""
+
+#: config/admin_strings.php:172
+msgid "Compare Type"
+msgstr ""
+
+#: config/admin_strings.php:173 views/dashboard/fields/text.php:33
+msgid "Equal"
+msgstr ""
+
+#: config/admin_strings.php:174
+msgid "Greater than"
+msgstr ""
+
+#: config/admin_strings.php:175
+msgid "Less than"
+msgstr ""
+
+#: config/admin_strings.php:176
+msgid "Values"
+msgstr ""
+
+#: config/admin_strings.php:177
+msgid "Separated by commas (e.g. 1000,2000,5000)"
+msgstr ""
+
+#: config/admin_strings.php:178
+msgid "Placeholder From"
+msgstr ""
+
+#: config/admin_strings.php:179
+msgid "Placeholder To"
+msgstr ""
+
+#: config/admin_strings.php:180
+msgid "Select Range"
+msgstr ""
+
+#: config/admin_strings.php:181
+msgid "Values From"
+msgstr ""
+
+#: config/admin_strings.php:182
+msgid "Values To"
+msgstr ""
+
+#: config/admin_strings.php:183
+msgid "Automatically ask for current user location"
+msgstr ""
+
+#: config/admin_strings.php:184
+msgid "Display \"My Location\" button"
+msgstr ""
+
+#: config/admin_strings.php:185
+msgid "Display Radius Control"
+msgstr ""
+
+#: config/admin_strings.php:186
+msgid "Radius Placeholder"
+msgstr ""
+
+#: config/admin_strings.php:187
+msgid "Radius Unit"
+msgstr ""
+
+#: config/admin_strings.php:188
+msgid "miles"
+msgstr ""
+
+#: config/admin_strings.php:189
+msgid "km"
+msgstr ""
+
+#: config/admin_strings.php:190
+msgid "Radius Values"
+msgstr ""
+
+#: config/admin_strings.php:191
+msgid "Initial Radius Value"
+msgstr ""
+
+#: config/admin_strings.php:192
+msgid ""
+"Initial Radius Value works only if you add value that is available in "
+"\"Radius Values\" field (above)"
+msgstr ""
+
+#: config/admin_strings.php:193
+msgid "Sort By"
+msgstr ""
+
+#: config/admin_strings.php:194
+msgid "Add Greater Than Value"
+msgstr ""
+
+#: config/admin_strings.php:195
+msgid "Max Width"
+msgstr ""
+
+#: config/admin_strings.php:196
+#: src/Widgets/General/HierarchicalTermsWidget.php:63
+#: src/Widgets/General/ServicesV2Widget.php:43
+msgid "Icon"
+msgstr ""
+
+#: config/admin_strings.php:197
+msgid "Map"
+msgstr ""
+
+#: config/admin_strings.php:198 src/Widgets/General/HeroSearchV2Widget.php:239
+msgid "Height"
+msgstr ""
+
+#: config/admin_strings.php:199
+msgid "Display Info Window"
+msgstr ""
+
+#: config/admin_strings.php:200
+msgid "Marker Type"
+msgstr ""
+
+#: config/admin_strings.php:201
+msgid "Big"
+msgstr ""
+
+#: config/admin_strings.php:202
+msgid "Small"
+msgstr ""
+
+#: config/admin_strings.php:203
+msgid "Classic"
+msgstr ""
+
+#: config/admin_strings.php:204
+msgid "Loan Calculator"
+msgstr ""
+
+#: config/admin_strings.php:205
+msgid "Initial Price"
+msgstr ""
+
+#: config/admin_strings.php:206
+msgid "Initial Rate"
+msgstr ""
+
+#: config/admin_strings.php:207
+msgid "Initial Months"
+msgstr ""
+
+#: config/admin_strings.php:208
+msgid "Initial Down Payment"
+msgstr ""
+
+#: config/admin_strings.php:209
+msgid "Calculate the down payment from the listing price"
+msgstr ""
+
+#: config/admin_strings.php:210
+msgid "Price Percentage"
+msgstr ""
+
+#: config/admin_strings.php:211
+msgid "Menu Height (px)"
+msgstr ""
+
+#: config/admin_strings.php:212
+msgid "Logo Height (px)"
+msgstr ""
+
+#: config/admin_strings.php:213
+msgid "Sticky Logo Height (px)"
+msgstr ""
+
+#: config/admin_strings.php:214
+msgid "Logo (Sticky)"
+msgstr ""
+
+#: config/admin_strings.php:215
+msgid "Standard"
+msgstr ""
+
+#: config/admin_strings.php:216
+msgid "The same"
+msgstr ""
+
+#: config/admin_strings.php:217
+msgid "Transparent"
+msgstr ""
+
+#: config/admin_strings.php:218 src/Widgets/User/UserHiddenPhoneWidget.php:37
+#: src/Widgets/User/UserWhatsAppWidget.php:37
+msgid "Style"
+msgstr ""
+
+#: config/admin_strings.php:219
+msgid "Display \"Dashboard\" and \"Login / Register\" Link"
+msgstr ""
+
+#: config/admin_strings.php:220
+msgid "Display CTA Button"
+msgstr ""
+
+#: config/admin_strings.php:221
+msgid "CTA Button Icon"
+msgstr ""
+
+#: config/admin_strings.php:222 config/strings.php:75
+msgid "Something went wrong"
+msgstr ""
+
+#: config/admin_strings.php:223 src/Widgets/General/ShapeWidget.php:66
+msgid "Width"
+msgstr ""
+
+#: config/admin_strings.php:224 config/strings.php:120
+msgid "Keyword"
+msgstr ""
+
+#: config/admin_strings.php:225
+msgid "Min Characters"
+msgstr ""
+
+#: config/admin_strings.php:226
+msgid "The minimum number of characters to open the dropdown"
+msgstr ""
+
+#: config/admin_strings.php:227
+msgid "Option Type"
+msgstr ""
+
+#: config/admin_strings.php:228
+msgid "Keywords"
+msgstr ""
+
+#: config/admin_strings.php:229
+msgid "Keyword With Term"
+msgstr ""
+
+#: config/admin_strings.php:230
+msgid "Demo Importer"
+msgstr ""
+
+#: config/admin_strings.php:231 views/dashboard/partials/breadcrumbs.php:9
+msgid "Breadcrumbs"
+msgstr ""
+
+#: config/admin_strings.php:232
+msgid "Include Excluded"
+msgstr ""
+
+#: config/admin_strings.php:233
+msgid "Randomize"
+msgstr ""
+
+#: config/admin_strings.php:234
+msgid "Randomize Limit"
+msgstr ""
+
+#: config/admin_strings.php:235
+msgid "Change of \"Layout\" will instantly save this page"
+msgstr ""
+
+#: config/admin_strings.php:236
+msgid "Transparent Menu"
+msgstr ""
+
+#: config/admin_strings.php:237
+msgid "Button CTA Mobile"
+msgstr ""
+
+#: config/admin_strings.php:238
+msgid "Button CTA Desktop"
+msgstr ""
+
+#: config/admin_strings.php:239
+msgid "Desktop Sticky Menu"
+msgstr ""
+
+#: config/admin_strings.php:240
+msgid "Link Typography"
+msgstr ""
+
+#: config/admin_strings.php:241
+msgid "Link Color"
+msgstr ""
+
+#: config/admin_strings.php:242
+msgid "Link Hover Color"
+msgstr ""
+
+#: config/admin_strings.php:243
+msgid "Dropdown Arrow Color"
+msgstr ""
+
+#: config/admin_strings.php:244
+msgid "Dropdown Arrow Hover Color"
+msgstr ""
+
+#: config/admin_strings.php:245
+msgid "User Icon Color"
+msgstr ""
+
+#: config/admin_strings.php:246
+msgid "Desktop Menu"
+msgstr ""
+
+#: config/admin_strings.php:247
+msgid "\"Hover Line Above Link\" Color"
+msgstr ""
+
+#: config/admin_strings.php:248
+msgid "Desktop Submenu"
+msgstr ""
+
+#: config/admin_strings.php:249
+msgid "Shadow"
+msgstr ""
+
+#: config/admin_strings.php:250 src/Widgets/General/BreadcrumbsWidget.php:82
+msgid "Separator Color"
+msgstr ""
+
+#: config/admin_strings.php:251
+msgid "Mobile Menu Closed"
+msgstr ""
+
+#: config/admin_strings.php:252
+msgid "Hamburger Icon Color"
+msgstr ""
+
+#: config/admin_strings.php:253
+msgid "User Icon Background Color"
+msgstr ""
+
+#: config/admin_strings.php:254
+msgid "Hamburger Icon Background Color"
+msgstr ""
+
+#: config/admin_strings.php:255
+msgid "Mobile Menu Open"
+msgstr ""
+
+#: config/admin_strings.php:256
+msgid "Top Background Color"
+msgstr ""
+
+#: config/admin_strings.php:257
+msgid "Close Icon Color"
+msgstr ""
+
+#: config/admin_strings.php:258
+msgid "Active Link Color"
+msgstr ""
+
+#: config/admin_strings.php:259
+msgid "Keyword with Term Suggestion Limit"
+msgstr ""
+
+#: config/admin_strings.php:260
+msgid "Keyword Suggestion Limit"
+msgstr ""
+
+#: config/admin_strings.php:261
+msgid "Display Subcategory Controls"
+msgstr ""
+
+#: config/admin_strings.php:262
+msgid "User WhatsApp"
+msgstr ""
+
+#: config/admin_strings.php:263
+msgid "Contact User"
+msgstr ""
+
+#: config/admin_strings.php:264
+msgid "Direct Messages"
+msgstr ""
+
+#: config/admin_strings.php:265
+#, php-format
+msgid "Payment Package #%d"
+msgstr ""
+
+#: config/admin_strings.php:266
+msgid "You do not have any Text Field in your Listivo Panel > Custom Fields"
+msgstr ""
+
+#: config/admin_strings.php:267 src/Widgets/General/HeroSearchV1Widget.php:83
+#: src/Widgets/General/HeroSearchV2Widget.php:71
+#: src/Widgets/General/HeroSearchV3Widget.php:56
+#: src/Widgets/General/HeroSearchV3Widget.php:158
+#: src/Widgets/Helpers/ListingCarousel.php:23
+msgid "Heading"
+msgstr ""
+
+#: config/admin_strings.php:268
+msgid "Display Heading"
+msgstr ""
+
+#: config/admin_strings.php:269
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: config/admin_strings.php:270
+msgid "URL"
+msgstr ""
+
+#: config/admin_strings.php:271
+msgid "Login / Register Separator Color"
+msgstr ""
+
+#: config/admin_strings.php:272 config/admin_strings.php:294
+msgid "Blog Title"
+msgstr ""
+
+#: config/admin_strings.php:273
+msgid "Custom Rules"
+msgstr ""
+
+#: config/admin_strings.php:274
+msgid "100,000,000.00"
+msgstr ""
+
+#: config/admin_strings.php:275
+msgid "100000000.00"
+msgstr ""
+
+#: config/admin_strings.php:276
+msgid "100.000.000,00"
+msgstr ""
+
+#: config/admin_strings.php:277
+msgid "100 000 000,00"
+msgstr ""
+
+#: config/admin_strings.php:278
+msgid "100,000,000"
+msgstr ""
+
+#: config/admin_strings.php:279
+msgid "100 000 000.00"
+msgstr ""
+
+#: config/admin_strings.php:280
+msgid "100.000.000"
+msgstr ""
+
+#: config/admin_strings.php:281
+msgid "10,00,00,000"
+msgstr ""
+
+#: config/admin_strings.php:282
+msgid "100 000 000"
+msgstr ""
+
+#: config/admin_strings.php:283
+msgid "100'000'000"
+msgstr ""
+
+#: config/admin_strings.php:284 views/dashboard/custom_fields.php:130
+#: views/dashboard/fields/field.php:76
+msgid "Slug"
+msgstr ""
+
+#: config/admin_strings.php:285 views/dashboard/fields/taxonomy.php:93
+#: views/dashboard/fields/taxonomy.php:97
+#: views/dashboard/partials/header.php:40
+#: views/dashboard/partials/homepage.php:18
+#: views/dashboard/partials/pages.php:55 views/dashboard/partials/pages.php:85
+#: views/dashboard/partials/pages.php:113
+#: views/dashboard/partials/pages.php:140
+#: views/dashboard/partials/pages.php:167 views/term/create.php:35
+#: views/term/edit.php:44
+msgid "Not set"
+msgstr ""
+
+#: config/admin_strings.php:286 config/strings.php:155
+#: src/Widgets/General/ServicesV2Widget.php:59
+msgid "Description"
+msgstr ""
+
+#: config/admin_strings.php:287
+msgid "Lat"
+msgstr ""
+
+#: config/admin_strings.php:288
+msgid "Lng"
+msgstr ""
+
+#: config/admin_strings.php:289
+msgid "Zoom"
+msgstr ""
+
+#: config/admin_strings.php:290
+msgid "Price Field"
+msgstr ""
+
+#: config/admin_strings.php:291
+msgid "Initial Sort By"
+msgstr ""
+
+#: config/admin_strings.php:292
+msgid "Show Sort By Control"
+msgstr ""
+
+#: config/admin_strings.php:293
+msgid "Custom Label"
+msgstr ""
+
+#: config/admin_strings.php:295
+msgid "Blog Categories"
+msgstr ""
+
+#: config/admin_strings.php:296 config/strings.php:289
+msgid "Tag Cloud"
+msgstr ""
+
+#: config/admin_strings.php:297
+msgid "Posts Sidebar"
+msgstr ""
+
+#: config/admin_strings.php:298
+msgid "Post"
+msgstr ""
+
+#: config/admin_strings.php:299 src/Helpers/PostsWidget.php:51
+msgid "Posts"
+msgstr ""
+
+#: config/admin_strings.php:300
+msgid "Blog Keyword Search"
+msgstr ""
+
+#: config/admin_strings.php:301
+msgid "Salary"
+msgstr ""
+
+#: config/admin_strings.php:302
+msgid "WooCommerce"
+msgstr ""
+
+#: config/admin_strings.php:303
+msgid "Display WhatsApp (mobile only < 1024px)"
+msgstr ""
+
+#: config/admin_strings.php:304
+msgid "Display Messenger (mobile only < 1024px)"
+msgstr ""
+
+#: config/admin_strings.php:305
+msgid "Tag"
+msgstr ""
+
+#: config/admin_strings.php:306
+#: src/Widgets/General/FooterListingListWidget.php:164
+#: views/dashboard/custom_fields.php:95
+msgid "Category"
+msgstr ""
+
+#: config/admin_strings.php:307
+msgid "Display Count"
+msgstr ""
+
+#: config/app.php:15 views/dashboard/header.php:8
+#: views/importer/importer.php:18
+msgid "Listivo"
+msgstr ""
+
+#: config/dashboard.php:5
+msgid "Listivo Panel"
+msgstr ""
+
+#: config/dashboard.php:9 views/dashboard/header.php:23
+#: views/dashboard/header.php:136
+msgid "Basic"
+msgstr ""
+
+#: config/dashboard.php:13 views/dashboard/header.php:34
+msgid "User Panel"
+msgstr ""
+
+#: config/dashboard.php:21 views/dashboard/custom_fields.php:59
+#: views/dashboard/header.php:56
+msgid "Custom Fields"
+msgstr ""
+
+#: config/dashboard.php:25 views/dashboard/header.php:67
+msgid "Monetization"
+msgstr ""
+
+#: config/dashboard.php:29 views/dashboard/header.php:78
+msgid "Notifications"
+msgstr ""
+
+#: config/dashboard.php:33 views/dashboard/header.php:89
+msgid "Maps"
+msgstr ""
+
+#: config/dashboard.php:37 views/dashboard/header.php:100
+#: views/dashboard/translate_and_rename.php:8
+msgid "Translate/Rename"
+msgstr ""
+
+#: config/dashboard.php:41 views/dashboard/header.php:111
+msgid "Advanced"
+msgstr ""
+
+#: config/demos.php:17
+msgid "Demo 1"
+msgstr ""
+
+#: config/demos.php:24
+msgid "Demo 2"
+msgstr ""
+
+#: config/google_map_languages.php:5
+msgid "AFRIKAANS"
+msgstr ""
+
+#: config/google_map_languages.php:6
+msgid "ALBANIAN"
+msgstr ""
+
+#: config/google_map_languages.php:7
+msgid "AMHARIC"
+msgstr ""
+
+#: config/google_map_languages.php:8
+msgid "ARABIC"
+msgstr ""
+
+#: config/google_map_languages.php:9
+msgid "ARMENIAN"
+msgstr ""
+
+#: config/google_map_languages.php:10
+msgid "AZERBAIJANI"
+msgstr ""
+
+#: config/google_map_languages.php:11
+msgid "BASQUE"
+msgstr ""
+
+#: config/google_map_languages.php:12
+msgid "BELARUSIAN"
+msgstr ""
+
+#: config/google_map_languages.php:13
+msgid "BENGALI"
+msgstr ""
+
+#: config/google_map_languages.php:14
+msgid "BOSNIAN"
+msgstr ""
+
+#: config/google_map_languages.php:15
+msgid "BULGARIAN"
+msgstr ""
+
+#: config/google_map_languages.php:16
+msgid "BURMESE"
+msgstr ""
+
+#: config/google_map_languages.php:17
+msgid "CATALAN"
+msgstr ""
+
+#: config/google_map_languages.php:18
+msgid "CHINESE"
+msgstr ""
+
+#: config/google_map_languages.php:19
+msgid "CHINESE (SIMPLIFIED)"
+msgstr ""
+
+#: config/google_map_languages.php:20
+msgid "CHINESE (HONG KONG)"
+msgstr ""
+
+#: config/google_map_languages.php:21
+msgid "CHINESE (TRADITIONAL)"
+msgstr ""
+
+#: config/google_map_languages.php:22
+msgid "CROATIAN"
+msgstr ""
+
+#: config/google_map_languages.php:23
+msgid "CZECH"
+msgstr ""
+
+#: config/google_map_languages.php:24
+msgid "DANISH"
+msgstr ""
+
+#: config/google_map_languages.php:25
+msgid "DUTCH"
+msgstr ""
+
+#: config/google_map_languages.php:26
+msgid "ENGLISH"
+msgstr ""
+
+#: config/google_map_languages.php:27
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr ""
+
+#: config/google_map_languages.php:28
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr ""
+
+#: config/google_map_languages.php:29
+msgid "ESTONIAN"
+msgstr ""
+
+#: config/google_map_languages.php:30
+msgid "FARSI"
+msgstr ""
+
+#: config/google_map_languages.php:31
+msgid "FINNISH"
+msgstr ""
+
+#: config/google_map_languages.php:32
+msgid "FILIPINO"
+msgstr ""
+
+#: config/google_map_languages.php:33
+msgid "FRENCH"
+msgstr ""
+
+#: config/google_map_languages.php:34
+msgid "FRENCH (CANADA)"
+msgstr ""
+
+#: config/google_map_languages.php:35
+msgid "GALICIAN"
+msgstr ""
+
+#: config/google_map_languages.php:36
+msgid "GEORGIAN"
+msgstr ""
+
+#: config/google_map_languages.php:37
+msgid "GERMAN"
+msgstr ""
+
+#: config/google_map_languages.php:38
+msgid "GREEK"
+msgstr ""
+
+#: config/google_map_languages.php:39
+msgid "GUJARATI"
+msgstr ""
+
+#: config/google_map_languages.php:40
+msgid "HEBREW"
+msgstr ""
+
+#: config/google_map_languages.php:41
+msgid "HINDI"
+msgstr ""
+
+#: config/google_map_languages.php:42
+msgid "HUNGARIAN"
+msgstr ""
+
+#: config/google_map_languages.php:43
+msgid "ICELANDIC"
+msgstr ""
+
+#: config/google_map_languages.php:44
+msgid "INDONESIAN"
+msgstr ""
+
+#: config/google_map_languages.php:45
+msgid "ITALIAN"
+msgstr ""
+
+#: config/google_map_languages.php:46
+msgid "JAPANESE"
+msgstr ""
+
+#: config/google_map_languages.php:47
+msgid "KANNADA"
+msgstr ""
+
+#: config/google_map_languages.php:48
+msgid "KAZAKH"
+msgstr ""
+
+#: config/google_map_languages.php:49
+msgid "KHMER"
+msgstr ""
+
+#: config/google_map_languages.php:50
+msgid "KOREAN"
+msgstr ""
+
+#: config/google_map_languages.php:51
+msgid "KYRGYZ"
+msgstr ""
+
+#: config/google_map_languages.php:52
+msgid "LAO"
+msgstr ""
+
+#: config/google_map_languages.php:53
+msgid "LATVIAN"
+msgstr ""
+
+#: config/google_map_languages.php:54
+msgid "LITHUANIAN"
+msgstr ""
+
+#: config/google_map_languages.php:55
+msgid "MACEDONIAN"
+msgstr ""
+
+#: config/google_map_languages.php:56
+msgid "MALAY"
+msgstr ""
+
+#: config/google_map_languages.php:57
+msgid "MALAYALAM"
+msgstr ""
+
+#: config/google_map_languages.php:58
+msgid "MARATHI"
+msgstr ""
+
+#: config/google_map_languages.php:59
+msgid "MONGOLIAN"
+msgstr ""
+
+#: config/google_map_languages.php:60
+msgid "NEPALI"
+msgstr ""
+
+#: config/google_map_languages.php:61
+msgid "NORWEGIAN"
+msgstr ""
+
+#: config/google_map_languages.php:62
+msgid "POLISH"
+msgstr ""
+
+#: config/google_map_languages.php:63
+msgid "PORTUGUESE"
+msgstr ""
+
+#: config/google_map_languages.php:64
+msgid "PORTUGUESE (BRAZIL)"
+msgstr ""
+
+#: config/google_map_languages.php:65
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr ""
+
+#: config/google_map_languages.php:66
+msgid "PUNJABI"
+msgstr ""
+
+#: config/google_map_languages.php:67
+msgid "ROMANIAN"
+msgstr ""
+
+#: config/google_map_languages.php:68
+msgid "RUSSIAN"
+msgstr ""
+
+#: config/google_map_languages.php:69
+msgid "SERBIAN"
+msgstr ""
+
+#: config/google_map_languages.php:70
+msgid "SINHALESE"
+msgstr ""
+
+#: config/google_map_languages.php:71
+msgid "SLOVAK"
+msgstr ""
+
+#: config/google_map_languages.php:72
+msgid "SLOVENIAN"
+msgstr ""
+
+#: config/google_map_languages.php:73
+msgid "SPANISH"
+msgstr ""
+
+#: config/google_map_languages.php:74
+msgid "SPANISH (LATIN AMERICA)"
+msgstr ""
+
+#: config/google_map_languages.php:75
+msgid "SWAHILI"
+msgstr ""
+
+#: config/google_map_languages.php:76
+msgid "SWEDISH"
+msgstr ""
+
+#: config/google_map_languages.php:77
+msgid "TAMIL"
+msgstr ""
+
+#: config/google_map_languages.php:78
+msgid "TELUGU"
+msgstr ""
+
+#: config/google_map_languages.php:79
+msgid "THAI"
+msgstr ""
+
+#: config/google_map_languages.php:80
+msgid "TURKISH"
+msgstr ""
+
+#: config/google_map_languages.php:81
+msgid "UKRAINIAN"
+msgstr ""
+
+#: config/google_map_languages.php:82
+msgid "URDU"
+msgstr ""
+
+#: config/google_map_languages.php:83
+msgid "UZBEK"
+msgstr ""
+
+#: config/google_map_languages.php:84
+msgid "VIETNAMESE"
+msgstr ""
+
+#: config/google_map_languages.php:85
+msgid "ZULU"
+msgstr ""
+
+#: config/notifications.php:9 views/dashboard/header.php:300
+msgid "Confirmation Email"
+msgstr ""
+
+#: config/notifications.php:10
+msgid "Require new users to verify account via email."
+msgstr ""
+
+#: config/notifications.php:11
+msgid "Confirm your e-mail"
+msgstr ""
+
+#: config/notifications.php:12
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"Thank you for registration! Please confirm your email by clicking this link: "
+"{confirmationLink}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:24 views/dashboard/header.php:307
+msgid "Welcome Message"
+msgstr ""
+
+#: config/notifications.php:25
+msgid ""
+"Everyone who register on your website will get this email. If you turned on "
+"the option: Registration - require new users to verify account via email "
+"(Basic Setup) this email will be send after user confirm email address."
+msgstr ""
+
+#: config/notifications.php:26
+msgid "Welcome to our website"
+msgstr ""
+
+#: config/notifications.php:27
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"Thank you for registering to our website.\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:39 config/strings.php:97
+#: views/dashboard/header.php:314
+msgid "Reset Password"
+msgstr ""
+
+#: config/notifications.php:40
+msgid ""
+"Email that your users will receive if they use Forgotten password function"
+msgstr ""
+
+#: config/notifications.php:41
+msgid "Reset your password"
+msgstr ""
+
+#: config/notifications.php:42
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"You can reset your password here: {resetPasswordLink}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:54
+msgid "Change E-Mail"
+msgstr ""
+
+#: config/notifications.php:55
+msgid "Email that your users will receive when they change email"
+msgstr ""
+
+#: config/notifications.php:56
+msgid "Change Your E-Mail"
+msgstr ""
+
+#: config/notifications.php:57
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"PIN: {changeEmailToken}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:69 views/dashboard/header.php:321
+msgid "Listing Approved"
+msgstr ""
+
+#: config/notifications.php:70
+msgid ""
+"If you turned on Basic Setup > Moderation - admin needs to approve listings "
+"this email will be send to the user if you approve listing"
+msgstr ""
+
+#: config/notifications.php:71
+msgid "Your listing {listingName} was approved"
+msgstr ""
+
+#: config/notifications.php:72
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"Your listing {listingName} was approved! You can view it here: "
+"{listingLink}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:84 views/dashboard/header.php:328
+msgid "Listing Declined"
+msgstr ""
+
+#: config/notifications.php:85
+msgid ""
+"If you turned on Basic Setup > Moderation - admin needs to approve listings "
+"this email will be send to the user if you declined listing"
+msgstr ""
+
+#: config/notifications.php:86
+msgid "Your listing {listingName} was declined"
+msgstr ""
+
+#: config/notifications.php:87
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"Your listing {listingName} was declined! We are very sorry.\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:99 views/dashboard/header.php:335
+msgid "Listing Pending"
+msgstr ""
+
+#: config/notifications.php:100
+msgid ""
+"If you turned on Basic Setup > Moderation - admin needs to approve listings "
+"this email will be send to the user just after submiting listing"
+msgstr ""
+
+#: config/notifications.php:101
+msgid "New Listing Pending Review"
+msgstr ""
+
+#: config/notifications.php:102
+msgid ""
+"Hello {userDisplayName},\n"
+"\n"
+"Your listing {listingName} is pending review. We will inform you by email "
+"when it will be approved / declined.\n"
+"\n"
+"Reason: {declineReason}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:116 views/dashboard/header.php:342
+msgid "Admin: New Listing Pending"
+msgstr ""
+
+#: config/notifications.php:117
+msgid ""
+"If you turned on Basic Setup > Moderation - admin needs to approve listings "
+"this email will be send to administration email address. You can set this "
+"email address it in the /wp-admin/ > Settings > General > Administration "
+"Email Address"
+msgstr ""
+
+#: config/notifications.php:118
+msgid "New listing is pending review"
+msgstr ""
+
+#: config/notifications.php:119
+msgid ""
+"Hello,\n"
+"\n"
+"New listing \"{listingName}\" by {userDisplayNameWithLink} is pending "
+"review\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/notifications.php:131
+msgid "New Direct Message"
+msgstr ""
+
+#: config/notifications.php:132
+msgid "User has received a new private message."
+msgstr ""
+
+#: config/notifications.php:133
+msgid "New message from {messageSenderName}"
+msgstr ""
+
+#: config/notifications.php:134
+msgid ""
+"Hello,\n"
+"\n"
+"You have a new message from {messageSenderNameWithLink}. {message} "
+"{replyLink}\n"
+"\n"
+"Best wishes,\n"
+"CEO"
+msgstr ""
+
+#: config/posttypes.php:47 config/strings.php:6 config/strings.php:132
+#: views/dashboard/monetization.php:177
+msgid "Listings"
+msgstr ""
+
+#: config/posttypes.php:48 config/strings.php:5
+msgid "Listing"
+msgstr ""
+
+#: config/posttypes.php:71 views/dashboard/monetization.php:88
+msgid "Payment Packages"
+msgstr ""
+
+#: config/posttypes.php:72
+msgid "Payment Package"
+msgstr ""
+
+#: config/strings.php:8 src/Widgets/General/ListingNameWidget.php:31
+#: src/Widgets/Listing/ListingNameWidget.php:31
+msgid "Listing Name"
+msgstr ""
+
+#: config/strings.php:9
+msgid "Email"
+msgstr ""
+
+#: config/strings.php:10
+msgid "Website"
+msgstr ""
+
+#: config/strings.php:11
+msgid "Add comment"
+msgstr ""
+
+#: config/strings.php:12
+msgid "Add comment to"
+msgstr ""
+
+#: config/strings.php:13
+msgid "Comment"
+msgstr ""
+
+#: config/strings.php:14
+msgid "Post comment"
+msgstr ""
+
+#: config/strings.php:15
+msgid "Comments"
+msgstr ""
+
+#: config/strings.php:16
+msgid "Reply"
+msgstr ""
+
+#: config/strings.php:17
+msgid "Comment awaiting moderation"
+msgstr ""
+
+#: config/strings.php:18
+msgid "View profile"
+msgstr ""
+
+#: config/strings.php:19
+msgid "Reveal"
+msgstr ""
+
+#: config/strings.php:21
+msgid "Video"
+msgstr ""
+
+#: config/strings.php:22
+msgid "Date Listed: Newest"
+msgstr ""
+
+#: config/strings.php:23
+msgid "Date Listed: Oldest"
+msgstr ""
+
+#: config/strings.php:24
+msgid "Most Relevant"
+msgstr ""
+
+#: config/strings.php:25
+msgid "Highest"
+msgstr ""
+
+#: config/strings.php:26
+msgid "Lowest"
+msgstr ""
+
+#: config/strings.php:27
+msgid "Distance"
+msgstr ""
+
+#: config/strings.php:28
+msgid "Min"
+msgstr ""
+
+#: config/strings.php:29
+msgid "Max"
+msgstr ""
+
+#: config/strings.php:30
+msgid "Use my location"
+msgstr ""
+
+#: config/strings.php:31
+msgid "Selected area on the map"
+msgstr ""
+
+#: config/strings.php:32
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:114
+msgid "Most Popular"
+msgstr ""
+
+#: config/strings.php:33
+msgid "Recently viewed"
+msgstr ""
+
+#: config/strings.php:34
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:113
+#: views/dashboard/translate_and_rename.php:40
+msgid "All"
+msgstr ""
+
+#: config/strings.php:35
+msgid "ago"
+msgstr ""
+
+#: config/strings.php:36
+msgid "Added"
+msgstr ""
+
+#: config/strings.php:37
+msgid "Featured"
+msgstr ""
+
+#: config/strings.php:38
+msgid "Page"
+msgstr ""
+
+#: config/strings.php:40 src/Widgets/General/SearchWidget.php:82
+msgid "Search"
+msgstr ""
+
+#: config/strings.php:41
+msgid "Views:"
+msgstr ""
+
+#: config/strings.php:42
+msgid "ID:"
+msgstr ""
+
+#: config/strings.php:43
+msgid "Published:"
+msgstr ""
+
+#: config/strings.php:44
+msgid "Member since"
+msgstr ""
+
+#: config/strings.php:45
+msgid "See map"
+msgstr ""
+
+#: config/strings.php:46
+msgid "See all"
+msgstr ""
+
+#: config/strings.php:47
+msgid "Start a new search"
+msgstr ""
+
+#: config/strings.php:48
+msgid "Buy Now Pay Later "
+msgstr ""
+
+#: config/strings.php:49
+msgid "Show all photos "
+msgstr ""
+
+#: config/strings.php:51
+msgid "Interest Rate"
+msgstr ""
+
+#: config/strings.php:52
+msgid "Period (months)"
+msgstr ""
+
+#: config/strings.php:53
+msgid "Down Payment"
+msgstr ""
+
+#: config/strings.php:54
+msgid "Monthly Payment"
+msgstr ""
+
+#: config/strings.php:55
+msgid "in"
+msgstr ""
+
+#: config/strings.php:56
+msgid "Total Interest"
+msgstr ""
+
+#: config/strings.php:57
+msgid "Total Payments"
+msgstr ""
+
+#: config/strings.php:58
+msgid "Search for"
+msgstr ""
+
+#: config/strings.php:59
+msgid "Search..."
+msgstr ""
+
+#: config/strings.php:60
+msgid "Dashboard"
+msgstr ""
+
+#: config/strings.php:61
+msgid "Results"
+msgstr ""
+
+#: config/strings.php:62
+msgid "New Password"
+msgstr ""
+
+#: config/strings.php:63
+msgid "Log In"
+msgstr ""
+
+#: config/strings.php:64
+msgid "Log Out"
+msgstr ""
+
+#: config/strings.php:65
+msgid "Messages"
+msgstr ""
+
+#: config/strings.php:67
+msgid "Favorites"
+msgstr ""
+
+#: config/strings.php:68 views/dashboard/header.php:282
+#: views/dashboard/monetization.php:39
+msgid "Settings"
+msgstr ""
+
+#: config/strings.php:69 views/dashboard/partials/account_initial_tab.php:18
+msgid "Login"
+msgstr ""
+
+#: config/strings.php:70 views/dashboard/partials/account_initial_tab.php:27
+msgid "Register"
+msgstr ""
+
+#: config/strings.php:71
+msgid "Password"
+msgstr ""
+
+#: config/strings.php:72
+msgid "Invalid username or password"
+msgstr ""
+
+#: config/strings.php:73
+msgid "Remember"
+msgstr ""
+
+#: config/strings.php:74
+msgid "Please check your email for a confirmation link"
+msgstr ""
+
+#: config/strings.php:76
+msgid "Field is required"
+msgstr ""
+
+#: config/strings.php:77
+#, php-format
+msgid "Username must have at least %d letters."
+msgstr ""
+
+#: config/strings.php:78
+msgid "Display name must have at least 4 letters."
+msgstr ""
+
+#: config/strings.php:79
+msgid "Password must have at least 6 letters."
+msgstr ""
+
+#: config/strings.php:80
+msgid "You must accept the privacy policy"
+msgstr ""
+
+#: config/strings.php:81
+msgid "Username"
+msgstr ""
+
+#: config/strings.php:82
+msgid "Invalid email format."
+msgstr ""
+
+#: config/strings.php:83
+msgid "Only numbers"
+msgstr ""
+
+#: config/strings.php:86
+msgid "Google"
+msgstr ""
+
+#: config/strings.php:87 views/dashboard/partials/social_media.php:17
+msgid "Facebook"
+msgstr ""
+
+#: config/strings.php:88
+msgid ""
+"If your email address exists in our database, you will receive a password "
+"recovery link at your email address in a few minutes."
+msgstr ""
+
+#: config/strings.php:89
+msgid "Reset password link invalid or expired"
+msgstr ""
+
+#: config/strings.php:90
+msgid "Password changed successfully"
+msgstr ""
+
+#: config/strings.php:91
+msgid "Confirmation link has been sent"
+msgstr ""
+
+#: config/strings.php:92
+msgid "The user is already confirmed"
+msgstr ""
+
+#: config/strings.php:93 src/Widgets/Listing/ListingUserListingsWidget.php:39
+#: src/Widgets/User/UserListingsWidget.php:47
+msgid "User Listings"
+msgstr ""
+
+#: config/strings.php:94
+msgid "Send again"
+msgstr ""
+
+#: config/strings.php:95
+msgid "Send"
+msgstr ""
+
+#: config/strings.php:96
+msgid "Close"
+msgstr ""
+
+#: config/strings.php:98
+msgid "Enter the email address associated with the account."
+msgstr ""
+
+#: config/strings.php:99 views/dashboard/custom_fields.php:79
+#: views/dashboard/partials/colors.php:47
+#: views/dashboard/partials/colors.php:93
+#: views/dashboard/partials/colors.php:139
+#: views/dashboard/partials/colors.php:185
+#: views/dashboard/partials/colors.php:231
+#: views/dashboard/partials/colors.php:277
+#: views/dashboard/partials/colors.php:323
+#: views/dashboard/partials/currencies.php:15
+#: views/dashboard/partials/currencies.php:149
+#: views/dashboard/partials/payment_packages.php:178
+#: views/dashboard/partials/primary_color.php:44
+#: views/dashboard/partials/templates.php:20
+msgid "Cancel"
+msgstr ""
+
+#: config/strings.php:100
+msgid "Invalid email"
+msgstr ""
+
+#: config/strings.php:101
+msgid "Check your email"
+msgstr ""
+
+#: config/strings.php:102
+msgid "Ops"
+msgstr ""
+
+#: config/strings.php:103
+msgid "Success"
+msgstr ""
+
+#: config/strings.php:104
+msgid "Set new password"
+msgstr ""
+
+#: config/strings.php:105
+msgid "You are now logged in."
+msgstr ""
+
+#: config/strings.php:106
+msgid "Your account has been created."
+msgstr ""
+
+#: config/strings.php:107
+msgid "Confirmation email has been sent."
+msgstr ""
+
+#: config/strings.php:108
+msgid "Forgot password?"
+msgstr ""
+
+#: config/strings.php:109
+msgid "Email or Username"
+msgstr ""
+
+#: config/strings.php:110 views/dashboard/fields/taxonomy.php:57
+msgid "OR"
+msgstr ""
+
+#: config/strings.php:111
+msgid "or"
+msgstr ""
+
+#: config/strings.php:112
+msgid "Continue with Facebook"
+msgstr ""
+
+#: config/strings.php:113
+msgid "Continue with Google"
+msgstr ""
+
+#: config/strings.php:114
+msgid "Sort by:"
+msgstr ""
+
+#: config/strings.php:116
+msgid "Selected"
+msgstr ""
+
+#: config/strings.php:117
+msgid "No options"
+msgstr ""
+
+#: config/strings.php:118 views/dashboard/partials/colors.php:43
+#: views/dashboard/partials/colors.php:89
+#: views/dashboard/partials/colors.php:135
+#: views/dashboard/partials/colors.php:181
+#: views/dashboard/partials/colors.php:227
+#: views/dashboard/partials/colors.php:273
+#: views/dashboard/partials/colors.php:319
+#: views/dashboard/partials/primary_color.php:40
+msgid "Apply"
+msgstr ""
+
+#: config/strings.php:119
+msgid "Choose Category"
+msgstr ""
+
+#: config/strings.php:121
+msgid "Home"
+msgstr ""
+
+#: config/strings.php:122
+#: src/Providers/CallToActionOptionsServiceProvider.php:26
+#: views/dashboard/header.php:249
+msgid "Search Results"
+msgstr ""
+
+#: config/strings.php:123
+msgid "Calculate Financing"
+msgstr ""
+
+#: config/strings.php:124 src/Widgets/General/PopularSearchesWidget.php:33
+msgid "Popular Searches"
+msgstr ""
+
+#: config/strings.php:125
+msgid "Recent Searches"
+msgstr ""
+
+#: config/strings.php:126
+msgid "Related Searches"
+msgstr ""
+
+#: config/strings.php:127
+msgid "Profile"
+msgstr ""
+
+#: config/strings.php:128
+msgid "Moderation"
+msgstr ""
+
+#: config/strings.php:129 views/dashboard/custom_fields.php:177
+#: views/dashboard/partials/currencies.php:66
+#: views/dashboard/partials/payment_packages.php:39
+#: views/dashboard/partials/templates.php:63
+msgid "Edit"
+msgstr ""
+
+#: config/strings.php:130 config/strings.php:164
+#: views/dashboard/partials/header.php:114
+msgid "Add Listing"
+msgstr ""
+
+#: config/strings.php:131
+msgid "Edit Listing"
+msgstr ""
+
+#: config/strings.php:133
+msgid "Active"
+msgstr ""
+
+#: config/strings.php:134
+msgid "Switch to draft"
+msgstr ""
+
+#: config/strings.php:135
+msgid "Pending"
+msgstr ""
+
+#: config/strings.php:136
+msgid "Draft"
+msgstr ""
+
+#: config/strings.php:137
+msgid "- in"
+msgstr ""
+
+#: config/strings.php:138
+msgid "Chat via"
+msgstr ""
+
+#: config/strings.php:139
+msgid "WhatsApp"
+msgstr ""
+
+#: config/strings.php:140
+msgid "View"
+msgstr ""
+
+#: config/strings.php:141
+msgid "Views"
+msgstr ""
+
+#: config/strings.php:142
+msgid "Trash"
+msgstr ""
+
+#: config/strings.php:143
+msgid "Phone number revealed"
+msgstr ""
+
+#: config/strings.php:144
+msgid "Added to favorites"
+msgstr ""
+
+#: config/strings.php:145
+msgid "Map view"
+msgstr ""
+
+#: config/strings.php:146
+msgid "List view"
+msgstr ""
+
+#: config/strings.php:147
+msgid "Search as I move the map"
+msgstr ""
+
+#: config/strings.php:148
+msgid "No Listings"
+msgstr ""
+
+#: config/strings.php:149
+msgid "You do not have any listings yet."
+msgstr ""
+
+#: config/strings.php:150
+msgid "No Active Listings"
+msgstr ""
+
+#: config/strings.php:151
+msgid "No Pending Listings"
+msgstr ""
+
+#: config/strings.php:152
+msgid "No Draft Listings"
+msgstr ""
+
+#: config/strings.php:153 views/model/fields/gallery.php:68
+msgid "Add Images"
+msgstr ""
+
+#: config/strings.php:154
+msgid "Add Attachments"
+msgstr ""
+
+#: config/strings.php:156
+msgid "Profile Description"
+msgstr ""
+
+#: config/strings.php:157
+msgid "Copy any online video link e.g. YouTube, Facebook, Instagram or .mp4"
+msgstr ""
+
+#: config/strings.php:158
+msgid "Video Link"
+msgstr ""
+
+#: config/strings.php:159
+msgid "Add More Images"
+msgstr ""
+
+#: config/strings.php:160
+msgid "Add More Attachments"
+msgstr ""
+
+#: config/strings.php:161
+msgid "Enter Location"
+msgstr ""
+
+#: config/strings.php:162 config/strings.php:210
+#: views/model/fields/location.php:62
+msgid "Autocomplete address when marker position is changed"
+msgstr ""
+
+#: config/strings.php:163
+msgid "First"
+msgstr ""
+
+#: config/strings.php:165
+msgid "The required field is empty"
+msgstr ""
+
+#: config/strings.php:166
+msgid "Please complete all required fields."
+msgstr ""
+
+#: config/strings.php:167 views/dashboard/custom_fields.php:19
+msgid "OK"
+msgstr ""
+
+#: config/strings.php:168
+msgid "Show All"
+msgstr ""
+
+#: config/strings.php:169
+msgid "Listing has been added"
+msgstr ""
+
+#: config/strings.php:170
+msgid "Listing has been saved"
+msgstr ""
+
+#: config/strings.php:171
+msgid "Listing has been updated"
+msgstr ""
+
+#: config/strings.php:172
+msgid "Listing has been deleted"
+msgstr ""
+
+#: config/strings.php:173
+msgid "Listing is awaiting moderation"
+msgstr ""
+
+#: config/strings.php:174
+msgid "Save Listing"
+msgstr ""
+
+#: config/strings.php:175
+msgid "Display Name"
+msgstr ""
+
+#: config/strings.php:176
+msgid "Phone Number"
+msgstr ""
+
+#: config/strings.php:178
+msgid "Changes have been saved"
+msgstr ""
+
+#: config/strings.php:179
+msgid "Save Changes"
+msgstr ""
+
+#: config/strings.php:180 views/dashboard/partials/social_media.php:69
+msgid "YouTube"
+msgstr ""
+
+#: config/strings.php:181 views/dashboard/partials/social_media.php:56
+msgid "LinkedIn"
+msgstr ""
+
+#: config/strings.php:182 views/dashboard/partials/social_media.php:43
+msgid "Instagram"
+msgstr ""
+
+#: config/strings.php:183 views/dashboard/partials/social_media.php:30
+msgid "Twitter"
+msgstr ""
+
+#: config/strings.php:184
+msgid "Account Details"
+msgstr ""
+
+#: config/strings.php:185
+msgid "Social Links"
+msgstr ""
+
+#: config/strings.php:186
+msgid "Change Password"
+msgstr ""
+
+#: config/strings.php:187
+msgid "Old Password"
+msgstr ""
+
+#: config/strings.php:188
+msgid "Change Email"
+msgstr ""
+
+#: config/strings.php:189
+msgid "New Email"
+msgstr ""
+
+#: config/strings.php:190 views/dashboard/custom_fields.php:78
+#: views/dashboard/partials/currencies.php:14
+#: views/dashboard/partials/templates.php:19
+msgid "Confirm"
+msgstr ""
+
+#: config/strings.php:191
+msgid "Enter your PIN"
+msgstr ""
+
+#: config/strings.php:192
+msgid "We have sent a PIN to confirm the change to your current email address."
+msgstr ""
+
+#: config/strings.php:193
+msgid "E-Mail Changed"
+msgstr ""
+
+#: config/strings.php:194
+msgid "Your email address has been changed."
+msgstr ""
+
+#: config/strings.php:195
+msgid "Add Image"
+msgstr ""
+
+#: config/strings.php:196
+msgid "Remove Profile Photo"
+msgstr ""
+
+#: config/strings.php:197
+msgid "Please upload square image."
+msgstr ""
+
+#: config/strings.php:198 views/dashboard/custom_fields.php:16
+msgid "In Progress"
+msgstr ""
+
+#: config/strings.php:199
+msgid "Are You Sure?"
+msgstr ""
+
+#: config/strings.php:200
+msgid "Deleted"
+msgstr ""
+
+#: config/strings.php:201 views/dashboard/custom_fields.php:184
+#: views/dashboard/partials/currencies.php:74
+#: views/dashboard/partials/payment_packages.php:48
+msgid "Delete"
+msgstr ""
+
+#: config/strings.php:202
+msgid "Profile Image"
+msgstr ""
+
+#: config/strings.php:203
+msgid "Current Email"
+msgstr ""
+
+#: config/strings.php:204
+msgid "No Messages"
+msgstr ""
+
+#: config/strings.php:205
+msgid "Chats"
+msgstr ""
+
+#: config/strings.php:206
+msgid "Visit Profile"
+msgstr ""
+
+#: config/strings.php:207
+msgid "Load More"
+msgstr ""
+
+#: config/strings.php:208
+msgid "Write your message here"
+msgstr ""
+
+#: config/strings.php:209
+msgid "You"
+msgstr ""
+
+#: config/strings.php:211
+msgid "You cannot send a message to yourself"
+msgstr ""
+
+#: config/strings.php:212
+msgid "I'm interested in"
+msgstr ""
+
+#: config/strings.php:213 views/dashboard/custom_fields.php:138
+#: views/dashboard/partials/currencies.php:40
+msgid "Actions"
+msgstr ""
+
+#: config/strings.php:214
+msgid "Status"
+msgstr ""
+
+#: config/strings.php:215
+msgid "You can also"
+msgstr ""
+
+#: config/strings.php:216
+msgid "first."
+msgstr ""
+
+#: config/strings.php:217
+msgid "Decline"
+msgstr ""
+
+#: config/strings.php:218
+msgid "Approve"
+msgstr ""
+
+#: config/strings.php:219
+msgid "Publish"
+msgstr ""
+
+#: config/strings.php:220
+msgid "Enter a reason for rejecting the listing:"
+msgstr ""
+
+#: config/strings.php:221
+msgid "WhatsApp (require country code for mobile numbers)"
+msgstr ""
+
+#: config/strings.php:222
+msgid "View All"
+msgstr ""
+
+#: config/strings.php:223
+msgid "Filters"
+msgstr ""
+
+#: config/strings.php:224
+msgid "More Filters"
+msgstr ""
+
+#: config/strings.php:225
+msgid "Clear All"
+msgstr ""
+
+#: config/strings.php:226
+msgid "Add New"
+msgstr ""
+
+#: config/strings.php:227
+msgid "The old password is incorrect"
+msgstr ""
+
+#: config/strings.php:228
+msgid "Modified"
+msgstr ""
+
+#: config/strings.php:229
+msgid "Newest"
+msgstr ""
+
+#: config/strings.php:230
+msgid "Oldest"
+msgstr ""
+
+#: config/strings.php:231
+msgid "Enter your phone number"
+msgstr ""
+
+#: config/strings.php:232
+msgid "Enter your display name"
+msgstr ""
+
+#: config/strings.php:233
+msgid "Write something about yourself"
+msgstr ""
+
+#: config/strings.php:234
+msgid "Enter your address"
+msgstr ""
+
+#: config/strings.php:235
+msgid "Enter the url to your Facebook profile"
+msgstr ""
+
+#: config/strings.php:236
+msgid "Enter the url to your Twitter profile"
+msgstr ""
+
+#: config/strings.php:237
+msgid "Enter the url to your Instagram profile"
+msgstr ""
+
+#: config/strings.php:238
+msgid "Enter the url to your YouTube profile"
+msgstr ""
+
+#: config/strings.php:239
+msgid "Enter the url to your LinkedIn profile"
+msgstr ""
+
+#: config/strings.php:240
+msgid "Enter your old password"
+msgstr ""
+
+#: config/strings.php:241
+msgid "Enter your new password"
+msgstr ""
+
+#: config/strings.php:242
+msgid "Enter a new email"
+msgstr ""
+
+#: config/strings.php:243
+msgid "Day"
+msgstr ""
+
+#: config/strings.php:244
+msgid "Days"
+msgstr ""
+
+#: config/strings.php:245
+msgid "Minute"
+msgstr ""
+
+#: config/strings.php:246
+msgid "Minutes"
+msgstr ""
+
+#: config/strings.php:247
+msgid "Hour"
+msgstr ""
+
+#: config/strings.php:248
+msgid "Hours"
+msgstr ""
+
+#: config/strings.php:249
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: config/strings.php:250
+msgid "Back to Panel"
+msgstr ""
+
+#: config/strings.php:251
+msgid "Thank you for your order"
+msgstr ""
+
+#: config/strings.php:252
+msgid "Unfortunately your order cannot be processed as the originating bank"
+msgstr ""
+
+#: config/strings.php:253
+msgid "Your order"
+msgstr ""
+
+#: config/strings.php:254
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: config/strings.php:255
+msgid "Billing details"
+msgstr ""
+
+#: config/strings.php:256
+msgid "Choose a Package"
+msgstr ""
+
+#: config/strings.php:257
+msgid "Next"
+msgstr ""
+
+#: config/strings.php:258
+msgid "Buy the Package"
+msgstr ""
+
+#: config/strings.php:259
+msgid "Do you want to delete this listing? This action is irreversible."
+msgstr ""
+
+#: config/strings.php:260
+msgid "My Listings"
+msgstr ""
+
+#: config/strings.php:261
+msgid "My Packages"
+msgstr ""
+
+#: config/strings.php:262
+msgid "Starter Package"
+msgstr ""
+
+#: config/strings.php:263
+msgid "Free"
+msgstr ""
+
+#: config/strings.php:264
+msgid "There is no associated package for this listing."
+msgstr ""
+
+#: config/strings.php:265
+msgid "Expires"
+msgstr ""
+
+#: config/strings.php:266
+msgid "Featured Expires"
+msgstr ""
+
+#: config/strings.php:267
+msgid "Conversations"
+msgstr ""
+
+#: config/strings.php:268
+msgid "Promote"
+msgstr ""
+
+#: config/strings.php:269
+msgid "Error"
+msgstr ""
+
+#: config/strings.php:270
+msgid "Extend"
+msgstr ""
+
+#: config/strings.php:271
+msgid "Display all from"
+msgstr ""
+
+#: config/strings.php:272
+msgid "All user listings"
+msgstr ""
+
+#: config/strings.php:273
+msgid "Select a Package"
+msgstr ""
+
+#: config/strings.php:274
+msgid "Current Package"
+msgstr ""
+
+#: config/strings.php:277
+msgid "Call Support"
+msgstr ""
+
+#: config/strings.php:278
+msgid "Email Address"
+msgstr ""
+
+#: config/strings.php:279
+msgid "You don't have favorite listings yet"
+msgstr ""
+
+#: config/strings.php:280
+msgid "Duration"
+msgstr ""
+
+#: config/strings.php:281
+msgid "Buy New"
+msgstr ""
+
+#: config/strings.php:282
+msgid "You need to choose a package"
+msgstr ""
+
+#: config/strings.php:283
+msgid "Read More"
+msgstr ""
+
+#: config/strings.php:284
+msgid "Our Latest News"
+msgstr ""
+
+#: config/strings.php:285
+msgid "Checkout"
+msgstr ""
+
+#: config/strings.php:286
+msgid "Related Posts"
+msgstr ""
+
+#: config/strings.php:287
+msgid "Thank You"
+msgstr ""
+
+#: config/strings.php:290
+msgid "Popular Posts"
+msgstr ""
+
+#: config/strings.php:291
+msgid "Recent Comments"
+msgstr ""
+
+#: config/strings.php:292
+msgid "Purchase New Package"
+msgstr ""
+
+#: config/strings.php:293
+msgid "SMS"
+msgstr ""
+
+#: src/Helpers/PostsWidget.php:15
+msgid "Listivo Posts"
+msgstr ""
+
+#: src/Helpers/PostsWidget.php:56
+msgid "Title:"
+msgstr ""
+
+#: src/Helpers/PostsWidget.php:70
+msgid "Post IDs:"
+msgstr ""
+
+#: src/Models/Template/TemplateType/ListingArchiveTemplateType.php:22
+msgid "Search Results Page (Listings)"
+msgstr ""
+
+#: src/Models/Template/TemplateType/ListingSingleTemplateType.php:27
+#: views/dashboard/header.php:242
+msgid "Listing Page"
+msgstr ""
+
+#: src/Models/Template/TemplateType/ListingSingleTemplateType.php:55
+msgid "Preview Listing"
+msgstr ""
+
+#: src/Providers/CallToActionOptionsServiceProvider.php:30
+#: src/Widgets/General/CallToActionSectionWidget.php:219
+msgid "Custom Url"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:60
+#: src/Widgets/General/ButtonWidget.php:56
+msgid "Primary"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:65
+msgid "Secondary"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:75
+msgid "Accent"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:80
+msgid "Listivo Primary 1"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:85
+msgid "Listivo Primary 2"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:90
+msgid "Listivo Primary 3"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:95
+msgid "Listivo Secondary 1"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:100
+msgid "Listivo Secondary 2"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:105
+msgid "Listivo Support 1"
+msgstr ""
+
+#: src/Providers/ColorsServiceProvider.php:110
+msgid "Listivo Card Label"
+msgstr ""
+
+#: src/Providers/DemosServiceProvider.php:47
+msgid "Default Kit"
+msgstr ""
+
+#: src/Providers/ListingServiceProvider.php:107
+msgid "Listing Archive"
+msgstr ""
+
+#: src/Widgets/BlogArchiveWidget.php:28
+msgid "Blog Archive"
+msgstr ""
+
+#: src/Widgets/BlogArchiveWidget.php:53
+#: src/Widgets/General/BlogPostsV1Widget.php:135
+msgid "Display User"
+msgstr ""
+
+#: src/Widgets/BlogArchiveWidget.php:74
+#: src/Widgets/General/BlogPostsV1Widget.php:156
+msgid "Display Publish Date"
+msgstr ""
+
+#: src/Widgets/BlogArchiveWidget.php:95
+msgid "Display Read More Button"
+msgstr ""
+
+#: src/Widgets/BlogArchiveWidget.php:116
+msgid "Display Excerpt"
+msgstr ""
+
+#: src/Widgets/General/BlogPostsV1Widget.php:33
+msgid "Blog Posts V1"
+msgstr ""
+
+#: src/Widgets/General/BlogPostsV1Widget.php:64
+#: src/Widgets/General/SearchWidget.php:136
+msgid "Card"
+msgstr ""
+
+#: src/Widgets/General/BlogPostsV1Widget.php:177
+msgid "Display Categories"
+msgstr ""
+
+#: src/Widgets/General/BreadcrumbsWidget.php:71
+msgid "Color Last Element"
+msgstr ""
+
+#: src/Widgets/General/ButtonWidget.php:57
+msgid "Light"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:47
+msgid "Call To Action Section"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:80
+#: src/Widgets/General/HeroSearchV2Widget.php:90
+msgid "Background Image"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:104
+msgid "First Image"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:128
+msgid "Second Image"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:171
+#: src/Widgets/General/HeadingWidget.php:60
+#: src/Widgets/Helpers/Controls/HeadingControls.php:23
+msgid "Small Text"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:180
+msgid "Small Text Typography"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:207
+msgid "Action"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:234
+msgid "Button - Text"
+msgstr ""
+
+#: src/Widgets/General/CallToActionSectionWidget.php:258
+msgid "Button - Icon"
+msgstr ""
+
+#: src/Widgets/General/CopyrightsWidget.php:31
+msgid "Copyrights"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:45
+msgid "Mini Listings"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:79
+msgid "Title Typography"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:88
+msgid "Title Color"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:99
+msgid "Price Typography"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:108
+msgid "Price Color"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:119
+msgid "In Typography"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:128
+msgid "In Color"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:139
+msgid "Category Typography"
+msgstr ""
+
+#: src/Widgets/General/FooterListingListWidget.php:148
+msgid "Category Color"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:45
+msgid "Section Heading"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:82
+msgid "Decoration Style (Tablet / Desktop)"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:86
+#: src/Widgets/General/MainCategoriesWidget.php:124
+#: src/Widgets/General/SubheadingWidget.php:70
+msgid "None"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:87
+msgid "Arrow Left Bottom"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:88
+msgid "Arrow Right Bottom"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:89
+msgid "Triangle Left"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:90
+msgid "Triangle Right"
+msgstr ""
+
+#: src/Widgets/General/HeadingWidget.php:99
+msgid "Decoration Color"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:42
+msgid "Hero Search V1"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:63
+#: src/Widgets/General/PopularTermsWidget.php:32
+msgid "Popular Terms"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:65
+#: src/Widgets/General/PopularTermsWidget.php:39
+msgid "Check Popular:"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:102
+#: src/Widgets/General/SubheadingWidget.php:29
+msgid "Subheading"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:112
+msgid "Subheading Typography"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:139
+msgid "Main Image"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV1Widget.php:163
+msgid "Additional Image"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV2Widget.php:29
+msgid "Hero Search V2"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV2Widget.php:189
+#: src/Widgets/General/MainCategoriesWidget.php:101
+msgid "SVG Icon Code"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:26
+msgid "Hero Search V3"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:81
+msgid "Search Button"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:89
+msgid "Normal"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:107
+#: src/Widgets/General/HeroSearchV3Widget.php:139
+msgid "Background"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:121
+msgid "Hover"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:189
+msgid "Search Form Label"
+msgstr ""
+
+#: src/Widgets/General/HeroSearchV3Widget.php:208
+msgid "Button Label"
+msgstr ""
+
+#: src/Widgets/General/HierarchicalTermsWidget.php:26
+msgid "Hierarchical Terms"
+msgstr ""
+
+#: src/Widgets/General/HierarchicalTermsWidget.php:182
+msgid "Order By"
+msgstr ""
+
+#: src/Widgets/General/InfoWidget.php:25
+msgid "Info Section"
+msgstr ""
+
+#: src/Widgets/General/InfoWidget.php:119
+msgid "Value"
+msgstr ""
+
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:48
+msgid "Listing Carousel With Tabs"
+msgstr ""
+
+#: src/Widgets/General/ListingCarouselWithTabsWidget.php:115
+msgid "Recently Viewed"
+msgstr ""
+
+#: src/Widgets/General/ListingListWidget.php:35
+msgid "Listing List"
+msgstr ""
+
+#: src/Widgets/General/ListingListWidget.php:146
+msgid "Display Decoration"
+msgstr ""
+
+#: src/Widgets/General/ListingListWidget.php:232
+msgid "Only Featured"
+msgstr ""
+
+#: src/Widgets/General/ListingListWidget.php:253
+msgid "Display Featured Label"
+msgstr ""
+
+#: src/Widgets/General/LoanCalculatorLinkWidget.php:36
+msgid "Loan Calculator Link"
+msgstr ""
+
+#: src/Widgets/General/LoginAndRegisterWidget.php:40
+msgid "Login & Register"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:33
+msgid "Main Categories"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:117
+msgid "Pattern Location"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:120
+msgid "Left-Top"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:121
+msgid "Right-Top"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:122
+msgid "Right-Bottom"
+msgstr ""
+
+#: src/Widgets/General/MainCategoriesWidget.php:123
+msgid "Left-Bottom"
+msgstr ""
+
+#: src/Widgets/General/MenuWidget.php:193
+msgid "Button Icon Color"
+msgstr ""
+
+#: src/Widgets/General/MenuWidget.php:205
+msgid "Button Icon Background"
+msgstr ""
+
+#: src/Widgets/General/MenuWidget.php:216
+msgid "Button Icon Background Hover"
+msgstr ""
+
+#: src/Widgets/General/PhoneV2Widget.php:28
+msgid "Phone V2"
+msgstr ""
+
+#: src/Widgets/General/SearchFormWidget.php:63
+msgid "Search Form"
+msgstr ""
+
+#: src/Widgets/General/SearchMapWidget.php:68
+msgid "Search Map"
+msgstr ""
+
+#: src/Widgets/General/SearchMapWidget.php:177
+msgid "Advanced Map Settings"
+msgstr ""
+
+#: src/Widgets/General/SearchMapWidget.php:182
+msgid "Marker Clustering"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:117
+msgid "Listings Per Page"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:133
+msgid "Initial View"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:137
+msgid "Row"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:149
+msgid "Display View Selector"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:174
+msgid "Primary Fields"
+msgstr ""
+
+#: src/Widgets/General/SearchWidget.php:198
+msgid "Secondary Fields"
+msgstr ""
+
+#: src/Widgets/General/SeparatorWidget.php:29
+msgid "Separator"
+msgstr ""
+
+#: src/Widgets/General/ServicesV2Widget.php:24
+msgid "Services V2"
+msgstr ""
+
+#: src/Widgets/General/ServicesWidget.php:54
+msgid "Enable Border"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:43
+msgid "Shape"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:104
+msgid "Underline"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:105
+msgid "Line Separator"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:106
+msgid "Wave Separator"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:107
+msgid "Triangle"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:108
+msgid "Cloud"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:109
+msgid "Wave"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:110
+msgid "Dots"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:111
+msgid "OX"
+msgstr ""
+
+#: src/Widgets/General/ShapeWidget.php:112
+msgid "Arrow"
+msgstr ""
+
+#: src/Widgets/General/SubheadingWidget.php:67
+msgid "Decoration"
+msgstr ""
+
+#: src/Widgets/General/SubheadingWidget.php:71
+msgid "Arrow Left-Down"
+msgstr ""
+
+#: src/Widgets/General/SubheadingWidget.php:72
+msgid "Arrow Left-Up"
+msgstr ""
+
+#: src/Widgets/General/SubheadingWidget.php:73
+msgid "Arrow Right-Down"
+msgstr ""
+
+#: src/Widgets/General/SubheadingWidget.php:74
+msgid "Arrow Right-Up"
+msgstr ""
+
+#: src/Widgets/General/TermsWithImagesV2Widget.php:20
+msgid "Terms With Images V2"
+msgstr ""
+
+#: src/Widgets/General/TermsWithImagesWidget.php:32
+msgid "Terms With Images"
+msgstr ""
+
+#: src/Widgets/Helpers/Controls/CardTypeControl.php:18
+msgid "Card Type"
+msgstr ""
+
+#: src/Widgets/Helpers/Controls/CardTypeControl.php:21
+msgid "Regular"
+msgstr ""
+
+#: src/Widgets/Helpers/Controls/CardTypeControl.php:22
+msgid "Simple"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAddressWidget.php:35
+msgid "Listing Address"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAddressWidget.php:83
+#: src/Widgets/Listing/ListingTopWidget.php:94
+msgid "See Map Type"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAddressWidget.php:87
+msgid "Scroll to the map"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAddressWidget.php:88
+msgid "open the map in a new window"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAttachmentsWidget.php:33
+msgid "Listing Attachments"
+msgstr ""
+
+#: src/Widgets/Listing/ListingAttributesWidget.php:33
+msgid "Listing Attributes"
+msgstr ""
+
+#: src/Widgets/Listing/ListingDescriptionWidget.php:31
+msgid "Listing Description"
+msgstr ""
+
+#: src/Widgets/Listing/ListingEmbedFieldWidget.php:32
+msgid "Listing Embed Field"
+msgstr ""
+
+#: src/Widgets/Listing/ListingGalleryV2Widget.php:29
+msgid "Listing Gallery V2"
+msgstr ""
+
+#: src/Widgets/Listing/ListingGalleryV3Widget.php:26
+msgid "Listing Gallery V3"
+msgstr ""
+
+#: src/Widgets/Listing/ListingGalleryWidget.php:33
+msgid "Listing Gallery"
+msgstr ""
+
+#: src/Widgets/Listing/ListingIdWidget.php:31
+msgid "Listing ID"
+msgstr ""
+
+#: src/Widgets/Listing/ListingMapWidget.php:56
+msgid "Listing Map"
+msgstr ""
+
+#: src/Widgets/Listing/ListingNumberFieldWidget.php:33
+msgid "Listing Number Field"
+msgstr ""
+
+#: src/Widgets/Listing/ListingPriceWidget.php:33
+msgid "Listing Price"
+msgstr ""
+
+#: src/Widgets/Listing/ListingPublishDateWidget.php:31
+msgid "Listing Publish Date"
+msgstr ""
+
+#: src/Widgets/Listing/ListingRichTextFieldWidget.php:33
+msgid "Listing Rich Text Field"
+msgstr ""
+
+#: src/Widgets/Listing/ListingTextFieldWidget.php:33
+msgid "Listing Text Field"
+msgstr ""
+
+#: src/Widgets/Listing/ListingTopWidget.php:29
+msgid "Listing Top"
+msgstr ""
+
+#: src/Widgets/Listing/ListingTopWidget.php:98
+msgid "Scroll to Map"
+msgstr ""
+
+#: src/Widgets/Listing/ListingTopWidget.php:99
+msgid "Open New Window"
+msgstr ""
+
+#: src/Widgets/Listing/ListingViewsWidget.php:31
+msgid "Listing Views"
+msgstr ""
+
+#: src/Widgets/Listing/RelatedListingsWidget.php:40
+msgid "Related Listings"
+msgstr ""
+
+#: src/Widgets/Listing/RelatedListingsWidget.php:65
+msgid "Related by"
+msgstr ""
+
+#: src/Widgets/Listing/UserProfileButtonWidget.php:34
+msgid "User Profile Button"
+msgstr ""
+
+#: src/Widgets/Listing/UserProfileButtonWidget.php:53
+msgid "Button Text"
+msgstr ""
+
+#: src/Widgets/User/UserHiddenPhoneWidget.php:40
+#: src/Widgets/User/UserWhatsAppWidget.php:40
+msgid "Style V1"
+msgstr ""
+
+#: src/Widgets/User/UserHiddenPhoneWidget.php:41
+#: src/Widgets/User/UserWhatsAppWidget.php:41
+msgid "Style V2"
+msgstr ""
+
+#: src/Widgets/User/UserRegisteredSinceWidget.php:33
+msgid "User Registered Since"
+msgstr ""
+
+#: src/Widgets/User/UserSmsWidget.php:26
+msgid "User SMS"
+msgstr ""
+
+#: views/dashboard/advanced.php:22
+msgid "Check Expired Listings"
+msgstr ""
+
+#: views/dashboard/advanced.php:27
+msgid ""
+"Automatically checking if listings have expired should work right away. The "
+"exception is when your hosting provider blocks cron jobs. In this case you "
+"can set up an external cron using a site like"
+msgstr ""
+
+#: views/dashboard/advanced.php:37
+msgid "Check Expired"
+msgstr ""
+
+#: views/dashboard/advanced.php:45
+msgid "Clear Data"
+msgstr ""
+
+#: views/dashboard/advanced.php:51
+msgid ""
+"Click button below to delete images that were added by the front-end panel "
+"and are not assigned to any listing."
+msgstr ""
+
+#: views/dashboard/advanced.php:58
+#, php-format
+msgid "Clear Images (%d)"
+msgstr ""
+
+#: views/dashboard/advanced.php:67
+msgid "Click button below to clear \"Popular / recently viewed\" data"
+msgstr ""
+
+#: views/dashboard/advanced.php:71
+msgid "Clear \"Recently Viewed Listing\" Data"
+msgstr ""
+
+#: views/dashboard/advanced.php:77
+msgid "Click button below to clear \"Related Searches\" data"
+msgstr ""
+
+#: views/dashboard/advanced.php:81
+msgid "Clear \"Related Searches\" Data"
+msgstr ""
+
+#: views/dashboard/basic_setup.php:29
+msgid "Basic Settings"
+msgstr ""
+
+#: views/dashboard/basic_setup.php:31
+msgid ""
+"These information will be displayed across your website e.g. on the contact "
+"us page or footer."
+msgstr ""
+
+#: views/dashboard/basic_setup.php:54 views/dashboard/header.php:150
+msgid "URLs"
+msgstr ""
+
+#: views/dashboard/basic_setup.php:62
+msgid "You can change the slugs in the Listivo Panel > Translate / Rename"
+msgstr ""
+
+#: views/dashboard/basic_setup.php:96 views/dashboard/header.php:192
+msgid "Other"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:12 views/dashboard/custom_fields.php:51
+msgid "Add New Field"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:17
+msgid "Field Created Successfully"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:18
+msgid "Field added to the bottom of a table"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:29
+msgid "Field Name"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:67
+msgid ""
+"Click here to learn about \"Custom Fields\" and how to add field on the "
+"single ling page or search page"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:77
+#: views/dashboard/partials/currencies.php:13
+#: views/dashboard/partials/templates.php:18
+msgid "Are you sure?"
+msgstr ""
+
+#: views/dashboard/custom_fields.php:90
+msgid "Filter by"
+msgstr ""
+
+#: views/dashboard/fields/attachments.php:10
+#: views/dashboard/fields/gallery.php:10
+msgid "Max Image Number"
+msgstr ""
+
+#: views/dashboard/fields/attachments.php:22
+#: views/dashboard/fields/gallery.php:22
+msgid "Max File Size (MB)"
+msgstr ""
+
+#: views/dashboard/fields/embed.php:20
+msgid "Allow RAW HTML"
+msgstr ""
+
+#: views/dashboard/fields/field.php:16
+msgid "Back to Custom Fields"
+msgstr ""
+
+#: views/dashboard/fields/field.php:26
+msgid "ID"
+msgstr ""
+
+#: views/dashboard/fields/field.php:69
+msgid "Is Required"
+msgstr ""
+
+#: views/dashboard/fields/field.php:94
+msgid "Input Placeholder"
+msgstr ""
+
+#: views/dashboard/fields/field.php:108
+msgid "Value visibility by user role"
+msgstr ""
+
+#: views/dashboard/fields/field.php:115 views/dashboard/fields/field.php:140
+msgid "Everyone"
+msgstr ""
+
+#: views/dashboard/fields/field.php:133
+msgid "Visibility on the frontend panel by user role"
+msgstr ""
+
+#: views/dashboard/fields/field.php:158
+msgid "Hide Terms"
+msgstr ""
+
+#: views/dashboard/fields/field.php:188
+#: views/dashboard/partials/currencies.php:145
+#: views/dashboard/partials/payment_packages.php:171
+msgid "Save"
+msgstr ""
+
+#: views/dashboard/fields/location.php:10
+msgid "Map Type"
+msgstr ""
+
+#: views/dashboard/fields/location.php:24
+msgid "Roadmap"
+msgstr ""
+
+#: views/dashboard/fields/location.php:33
+msgid "Satellite"
+msgstr ""
+
+#: views/dashboard/fields/location.php:42
+msgid "Hybrid"
+msgstr ""
+
+#: views/dashboard/fields/location.php:51
+msgid "Terrain"
+msgstr ""
+
+#: views/dashboard/fields/location.php:58
+msgid "Search type"
+msgstr ""
+
+#: views/dashboard/fields/location.php:72
+#: views/dashboard/fields/location.php:129
+msgid "(cities)"
+msgstr ""
+
+#: views/dashboard/fields/location.php:81
+#: views/dashboard/fields/location.php:138
+msgid "(regions)"
+msgstr ""
+
+#: views/dashboard/fields/location.php:90
+#: views/dashboard/fields/location.php:147
+msgid "address"
+msgstr ""
+
+#: views/dashboard/fields/location.php:97
+msgid "Input type"
+msgstr ""
+
+#: views/dashboard/fields/location.php:111
+msgid "geocode"
+msgstr ""
+
+#: views/dashboard/fields/location.php:120
+msgid "establishment"
+msgstr ""
+
+#: views/dashboard/fields/location.php:154
+msgid "Country restrictions (max 5)"
+msgstr ""
+
+#: views/dashboard/fields/location.php:163
+msgid "No Restrictions"
+msgstr ""
+
+#: views/dashboard/fields/number.php:11
+msgid "Decimal places"
+msgstr ""
+
+#: views/dashboard/fields/number.php:34
+msgid "Hide Thousands Separator"
+msgstr ""
+
+#: views/dashboard/fields/number.php:40 views/dashboard/fields/price.php:11
+#: views/dashboard/fields/salary.php:11
+msgid "Text before the value"
+msgstr ""
+
+#: views/dashboard/fields/number.php:53 views/dashboard/fields/price.php:24
+#: views/dashboard/fields/salary.php:24
+msgid "Text after the value"
+msgstr ""
+
+#: views/dashboard/fields/partials/field_dependency.php:59
+msgid "Important Information"
+msgstr ""
+
+#: views/dashboard/fields/partials/field_dependency.php:62
+msgid ""
+"By default, each field is displayed to all terms. If you check the box (e.g. "
+"Salary) in the column (e.g. Jobs), the field will be displayed only if the "
+"user selects Category: Jobs."
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:19
+msgid "Multilevel"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:25
+msgid "Search Logic"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:30
+msgid ""
+"If Multilevel Taxonomy is turned on - \"Search Login\" must be set to \"and\""
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:48
+msgid "AND"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:74
+msgid "Field dependency"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:86
+msgid "Parent taxonomies"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:133
+msgid "Allow multiple values"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:140
+msgid "Frontend panel options"
+msgstr ""
+
+#: views/dashboard/fields/taxonomy.php:147
+msgid "All terms"
+msgstr ""
+
+#: views/dashboard/fields/text.php:10
+msgid "Compare Logic"
+msgstr ""
+
+#: views/dashboard/fields/text.php:24
+msgid "Like"
+msgstr ""
+
+#: views/dashboard/header.php:129
+msgid "Colors"
+msgstr ""
+
+#: views/dashboard/header.php:164 views/dashboard/partials/listing_card.php:9
+msgid "Listing Card"
+msgstr ""
+
+#: views/dashboard/header.php:171 views/dashboard/partials/number_format.php:8
+msgid "Number Format"
+msgstr ""
+
+#: views/dashboard/header.php:185 views/dashboard/partials/fonts.php:4
+msgid "Fonts"
+msgstr ""
+
+#: views/dashboard/header.php:210 views/dashboard/partials/re_captcha.php:9
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: views/dashboard/header.php:217 views/dashboard/partials/facebook_auth.php:8
+msgid "Facebook Social Auth"
+msgstr ""
+
+#: views/dashboard/header.php:224 views/dashboard/partials/google_auth.php:8
+msgid "Google Social Auth"
+msgstr ""
+
+#: views/dashboard/header.php:235
+msgid "Layouts (headers & footers)"
+msgstr ""
+
+#: views/dashboard/header.php:263
+msgid "Blog Single Post"
+msgstr ""
+
+#: views/dashboard/header.php:289
+msgid "Listing Packages"
+msgstr ""
+
+#: views/dashboard/maps.php:16
+msgid "Google Maps"
+msgstr ""
+
+#: views/dashboard/maps.php:19
+msgid ""
+"You can find more options related to map in the Listivo Panel > Custom "
+"Fields > Location (edit). You can set there e.g. Map Type, Search Type, "
+"Country Restrictions and much more."
+msgstr ""
+
+#: views/dashboard/maps.php:34
+msgid "Click here to learn more how to get Google Maps API key"
+msgstr ""
+
+#: views/dashboard/maps.php:54
+msgid "Invalid Api Key"
+msgstr ""
+
+#: views/dashboard/maps.php:58
+msgid "Google Maps API Key Loaded Successfully"
+msgstr ""
+
+#: views/dashboard/maps.php:65
+msgid "Google Maps API Key"
+msgstr ""
+
+#: views/dashboard/maps.php:79
+msgid "Initial Location"
+msgstr ""
+
+#: views/dashboard/maps.php:113
+msgid "Invalid Google Maps Api Key"
+msgstr ""
+
+#: views/dashboard/maps.php:121
+msgid "Zoom Level"
+msgstr ""
+
+#: views/dashboard/maps.php:134
+msgid "Language"
+msgstr ""
+
+#: views/dashboard/maps.php:157
+msgid "Snazzy"
+msgstr ""
+
+#: views/dashboard/maps.php:159
+msgid "Click here get styling codes and learn how to use it"
+msgstr ""
+
+#: views/dashboard/monetization.php:22
+msgid "Click here to learn more about Monetization System"
+msgstr ""
+
+#: views/dashboard/monetization.php:68
+msgid "Enable Monetization"
+msgstr ""
+
+#: views/dashboard/monetization.php:97
+msgid "Add new"
+msgstr ""
+
+#: views/dashboard/monetization.php:109
+msgid "New Package Name"
+msgstr ""
+
+#: views/dashboard/monetization.php:115
+msgid "Basic Plan"
+msgstr ""
+
+#: views/dashboard/monetization.php:135
+#: views/dashboard/partials/payment_packages.php:86
+msgid "Categories:"
+msgstr ""
+
+#: views/dashboard/monetization.php:141
+#: views/dashboard/partials/payment_packages.php:92
+msgid "All Categories"
+msgstr ""
+
+#: views/dashboard/monetization.php:155
+msgid "Display Price(e.g. $10.00)"
+msgstr ""
+
+#: views/dashboard/monetization.php:166
+#: views/dashboard/partials/payment_packages.php:106
+msgid "Price (integer e.g. 10)"
+msgstr ""
+
+#: views/dashboard/monetization.php:187
+#: views/dashboard/partials/payment_packages.php:145
+msgid "Duration (days)"
+msgstr ""
+
+#: views/dashboard/monetization.php:197
+#: views/dashboard/partials/payment_packages.php:158
+msgid "Featured (days)"
+msgstr ""
+
+#: views/dashboard/monetization.php:207
+msgid "Create"
+msgstr ""
+
+#: views/dashboard/partials/account_initial_tab.php:4
+msgid "Login / Register - Initial Tab"
+msgstr ""
+
+#: views/dashboard/partials/colors.php:8
+#: views/dashboard/partials/primary_color.php:8
+msgid "Colors Palette"
+msgstr ""
+
+#: views/dashboard/partials/colors.php:10
+#: views/dashboard/partials/primary_color.php:9
+msgid "Pick colors for your website"
+msgstr ""
+
+#: views/dashboard/partials/currencies.php:28
+#: views/dashboard/partials/currencies.php:95
+msgid "Sign"
+msgstr ""
+
+#: views/dashboard/partials/currencies.php:32
+#: views/dashboard/partials/currencies.php:108
+msgid "Sign Position"
+msgstr ""
+
+#: views/dashboard/partials/currencies.php:36
+#: views/dashboard/partials/currencies.php:128
+msgid "Format"
+msgstr ""
+
+#: views/dashboard/partials/currencies.php:117
+msgid "Before"
+msgstr ""
+
+#: views/dashboard/partials/currencies.php:121
+msgid "After"
+msgstr ""
+
+#: views/dashboard/partials/delete_model_images_on_delete.php:18
+msgid "Remove listing images when listing is deleted"
+msgstr ""
+
+#: views/dashboard/partials/demo_importer.php:18
+msgid "Disable Demo Importer"
+msgstr ""
+
+#: views/dashboard/partials/description_required.php:14
+msgid "Listing description required"
+msgstr ""
+
+#: views/dashboard/partials/facebook_auth.php:16
+msgid "Click here to read how to configure Facebook Login"
+msgstr ""
+
+#: views/dashboard/partials/facebook_auth.php:40
+msgid "Facebook Auth"
+msgstr ""
+
+#: views/dashboard/partials/facebook_auth.php:46
+msgid "Facebook App ID"
+msgstr ""
+
+#: views/dashboard/partials/facebook_auth.php:59
+msgid "Facebook App Secret"
+msgstr ""
+
+#: views/dashboard/partials/favorite.php:17
+msgid "Add to favorites"
+msgstr ""
+
+#: views/dashboard/partials/fonts.php:7
+msgid "You have access to 800+ Google Fonts."
+msgstr ""
+
+#: views/dashboard/partials/fonts.php:14
+msgid "Heading Font"
+msgstr ""
+
+#: views/dashboard/partials/fonts.php:37
+msgid "Text Font"
+msgstr ""
+
+#: views/dashboard/partials/footer.php:9
+msgid "Copyright Notice"
+msgstr ""
+
+#: views/dashboard/partials/free_payment_package.php:6
+msgid "\"Add for Free\" Option"
+msgstr ""
+
+#: views/dashboard/partials/free_payment_package.php:20
+#: views/dashboard/partials/notifications.php:48
+#: views/dashboard/partials/register_package.php:20
+msgid "Enable"
+msgstr ""
+
+#: views/dashboard/partials/free_payment_package.php:26
+#: views/dashboard/partials/register_package.php:39
+msgid "Listing Duration (days)"
+msgstr ""
+
+#: views/dashboard/partials/free_payment_package.php:39
+#: views/dashboard/partials/register_package.php:52
+msgid "Featured Duration (days)"
+msgstr ""
+
+#: views/dashboard/partials/google_auth.php:16
+msgid "Click here to read how to configure Google Login"
+msgstr ""
+
+#: views/dashboard/partials/google_auth.php:40
+msgid "Google Auth"
+msgstr ""
+
+#: views/dashboard/partials/google_auth.php:46
+msgid "Google Client ID"
+msgstr ""
+
+#: views/dashboard/partials/google_auth.php:59
+msgid "Google Client Secret"
+msgstr ""
+
+#: views/dashboard/partials/header.php:31
+msgid "Main Menu"
+msgstr ""
+
+#: views/dashboard/partials/header.php:67
+msgid "Sticky Main Menu"
+msgstr ""
+
+#: views/dashboard/partials/header.php:82
+msgid ""
+"Display User Menu for logged in users and \"Login / Register\" links for not "
+"logged in"
+msgstr ""
+
+#: views/dashboard/partials/header.php:99
+msgid "Display CTA Button (by default \"+ Add Listing\")"
+msgstr ""
+
+#: views/dashboard/partials/header.php:105
+msgid "Menu CTA Button Link"
+msgstr ""
+
+#: views/dashboard/partials/homepage.php:9
+msgid "Homepage"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:15
+msgid "Fields displayed on the cards"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:54
+msgid "Price/Salary Field"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:110
+msgid "Type of location on the cards"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:124
+msgid "User Location"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:134
+msgid " (Custom Field)"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:145
+msgid "(Custom Field)"
+msgstr ""
+
+#: views/dashboard/partials/listing_card.php:163
+msgid "Display user name and avatar"
+msgstr ""
+
+#: views/dashboard/partials/listing_moderation.php:18
+msgid "Moderation - admin needs to approve listings"
+msgstr ""
+
+#: views/dashboard/partials/login_min_length.php:8
+msgid "Login minimum number of characters"
+msgstr ""
+
+#: views/dashboard/partials/logo.php:11
+msgid ""
+"Upload your logo files (jpg/png). A reversed logo is another version of the "
+"logo that can be placed on a\n"
+"            dark background."
+msgstr ""
+
+#: views/dashboard/partials/logo.php:38 views/dashboard/partials/logo.php:64
+msgid "Add logo"
+msgstr ""
+
+#: views/dashboard/partials/logo.php:46
+msgid "Reversed"
+msgstr ""
+
+#: views/dashboard/partials/main_category.php:10
+msgid "Main Category"
+msgstr ""
+
+#: views/dashboard/partials/main_category.php:18
+#: views/dashboard/partials/pages.php:28
+msgid "Not Set"
+msgstr ""
+
+#: views/dashboard/partials/message_system.php:18
+msgid "Private Message System"
+msgstr ""
+
+#: views/dashboard/partials/model_auto_generate_urls.php:9
+msgid "Auto-Generate Listing Title"
+msgstr ""
+
+#: views/dashboard/partials/model_auto_generate_urls.php:16
+msgid "Do not auto generate - user enter title manually"
+msgstr ""
+
+#: views/dashboard/partials/moderators.php:8
+msgid "Who has access to Moderation Page"
+msgstr ""
+
+#: views/dashboard/partials/moderators.php:15
+msgid "Only Administrators"
+msgstr ""
+
+#: views/dashboard/partials/notifications.php:22
+msgid "Available variables:"
+msgstr ""
+
+#: views/dashboard/partials/notifications.php:56
+msgid "Email Title"
+msgstr ""
+
+#: views/dashboard/partials/notifications.php:69
+msgid "Message"
+msgstr ""
+
+#: views/dashboard/partials/notifications_general.php:14
+msgid "Click here if you are not receiving emails or emails goes to spam."
+msgstr ""
+
+#: views/dashboard/partials/notifications_general.php:37
+msgid "Require new users to verify account via email"
+msgstr ""
+
+#: views/dashboard/partials/notifications_general.php:43
+msgid "Sender Name"
+msgstr ""
+
+#: views/dashboard/partials/notifications_general.php:57
+msgid "Sender Email"
+msgstr ""
+
+#: views/dashboard/partials/number_format.php:14
+msgid "Decimal Separator"
+msgstr ""
+
+#: views/dashboard/partials/number_format.php:27
+msgid "Thousands Separator"
+msgstr ""
+
+#: views/dashboard/partials/other.php:10
+msgid "Exclude From Search Results"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:11
+msgid "Global Assignments"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:14
+msgid ""
+"Thanks to this settings theme assign correct information across website. "
+"Changing it can be useful only in some advanced customizations so it is "
+"highly recommended to not change this settings without clear reason."
+msgstr ""
+
+#: views/dashboard/partials/pages.php:21
+msgid "Additional Search Pages"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:46
+msgid "Panel Page"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:74
+msgid "Login Page"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:131
+msgid "404 Page"
+msgstr ""
+
+#: views/dashboard/partials/pages.php:158
+msgid "Contact User Form"
+msgstr ""
+
+#: views/dashboard/partials/payment_packages.php:119
+msgid "Display Price (Format number as currency e.g. $10.00)"
+msgstr ""
+
+#: views/dashboard/partials/payment_packages.php:132
+msgid "Listings:"
+msgstr ""
+
+#: views/dashboard/partials/phone_logic.php:8
+msgid "User Phone Number"
+msgstr ""
+
+#: views/dashboard/partials/phone_logic.php:22
+msgid "Optional + show on the register form"
+msgstr ""
+
+#: views/dashboard/partials/phone_logic.php:31
+msgid "Optional + hide on the register form"
+msgstr ""
+
+#: views/dashboard/partials/phone_logic.php:40
+msgid "Required"
+msgstr ""
+
+#: views/dashboard/partials/policy_label.php:9
+msgid "Policy Label"
+msgstr ""
+
+#: views/dashboard/partials/pretty_urls.php:18
+msgid ""
+"Pretty URLs - it creates unique links on search form based on breadcrumbs e."
+"g. Make > Model - listings/bmw/x7/. If you turn on this option, slugs for a "
+"\"single listing page\" and the \"inventory page\" must be different "
+"(Listivo Panel > Translate & Rename > Slugs)."
+msgstr ""
+
+#: views/dashboard/partials/primary_color.php:60
+msgid "Primary color"
+msgstr ""
+
+#: views/dashboard/partials/primary_color.php:64
+msgid "Click to select"
+msgstr ""
+
+#: views/dashboard/partials/public_information.php:8
+msgid "Public Email"
+msgstr ""
+
+#: views/dashboard/partials/public_information.php:21
+msgid "Public Phone"
+msgstr ""
+
+#: views/dashboard/partials/public_information.php:34
+msgid "Public Address"
+msgstr ""
+
+#: views/dashboard/partials/re_captcha.php:22
+msgid "Click here to create new reCAPTCHA v3"
+msgstr ""
+
+#: views/dashboard/partials/re_captcha.php:40
+msgid "Enable Google reCAPTCHA"
+msgstr ""
+
+#: views/dashboard/partials/re_captcha.php:46
+msgid "Google reCaptcha - Site key"
+msgstr ""
+
+#: views/dashboard/partials/re_captcha.php:59
+msgid "Google reCaptcha - Secret key"
+msgstr ""
+
+#: views/dashboard/partials/register_package.php:6
+msgid "\"Free Package\" Option for New Registered Users"
+msgstr ""
+
+#: views/dashboard/partials/save_changes_button.php:3
+msgid "Save All Changes"
+msgstr ""
+
+#: views/dashboard/partials/social_media.php:11
+msgid ""
+"Add links to your social media profiles. Remove \"#\" sign to hide icons on "
+"your website. Facebook API Key is required to share images correctly."
+msgstr ""
+
+#: views/dashboard/partials/social_media.php:82
+msgid "Facebook API Key"
+msgstr ""
+
+#: views/dashboard/partials/social_media.php:88
+msgid "click here create key"
+msgstr ""
+
+#: views/dashboard/partials/submit_without_login.php:18
+msgid "Allow adding listing before login"
+msgstr ""
+
+#: views/dashboard/partials/templates.php:48
+msgid "Set as default"
+msgstr ""
+
+#: views/dashboard/partials/templates.php:70
+msgid "Duplicate"
+msgstr ""
+
+#: views/dashboard/partials/templates.php:77
+msgid "Preview"
+msgstr ""
+
+#: views/dashboard/partials/templates.php:101
+msgid "Create New"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:8
+msgid "Bulk Add Terms"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:20
+msgid "Please click here to read documentation before you use this module"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:26
+msgid "This module can be used in 2 ways:"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:29
+msgid ""
+"1. You can import list of terms e.g. 100 vehicle features via plain text "
+"(each term in new line)"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:32
+msgid ""
+"2. You can use it to quickly create Parent-Child relationship e.g. you can "
+"add Make (Lamborghini) and connect to it many childs (Aventador, Gallardo, "
+"Murcielago, Diablo, Huracan)"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:102
+msgid "Child Field (Optional)"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:119
+msgid "Child Terms"
+msgstr ""
+
+#: views/dashboard/partials/term_importer.php:139
+#: views/importer/importer.php:110
+msgid "Import"
+msgstr ""
+
+#: views/dashboard/partials/term_relations_connect.php:3
+msgid "Connect Terms (Parent/Child)"
+msgstr ""
+
+#: views/dashboard/partials/term_relations_connect.php:8
+msgid ""
+"By clicking \"Connect\" button Listivo will assign all child terms (e.g. "
+"Banana) to Parents (e.g. Fruit) basing on listings that are in your "
+"database. It can be useful if you imported database of listings (e.g. via WP "
+"All Import) and you wish quickly create this type of parent-child relations "
+"for your search form or \"submit listing\" form."
+msgstr ""
+
+#: views/dashboard/partials/term_relations_connect.php:15
+msgid "Connect"
+msgstr ""
+
+#: views/dashboard/partials/user_registration.php:17
+msgid "Registration - enable user registration"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:15
+msgid "You can rename or translate any \"static\" text below."
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:17
+msgid "Click here if you need more information."
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:29
+msgid "Strings"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:51
+msgid "Renamed"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:62
+msgid "Not renamed"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:76
+#: views/dashboard/translate_and_rename.php:109
+msgid "Translate / rename here"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:91
+msgid "Slugs"
+msgstr ""
+
+#: views/dashboard/translate_and_rename.php:95
+msgid "Slugs are the parts of your site’s URL"
+msgstr ""
+
+#: views/importer/importer.php:26
+msgid "Listivo Demo Importer"
+msgstr ""
+
+#: views/importer/importer.php:35
+msgid "Importing demo content. Please wait..."
+msgstr ""
+
+#: views/importer/importer.php:48
+msgid "Here you can import homepages, sample listings, templates."
+msgstr ""
+
+#: views/importer/importer.php:55
+msgid "There can be problem connecting to demo database"
+msgstr ""
+
+#: views/importer/importer.php:59
+msgid ""
+"curl extension is not installed on your hosting or allow_url_fopen setting "
+"is not enabled. One of this must be fixed to correctly connect to the demo "
+"content database."
+msgstr ""
+
+#: views/importer/importer.php:69
+msgid "MB String not installed"
+msgstr ""
+
+#: views/importer/importer.php:73
+msgid ""
+"PHP mbstring extension is not installed on your server. It is required to "
+"run almost any modern WordPress theme or plugin. Please contact your server "
+"provider how to turn it \"on\"."
+msgstr ""
+
+#: views/importer/importer.php:82
+msgid "PHP GD extension is not installed on your server"
+msgstr ""
+
+#: views/importer/importer.php:85
+msgid "It is required to generate image thumbnails by any WordPress Theme."
+msgstr ""
+
+#: views/importer/importer.php:90
+msgid ""
+"Please note that loading a new demo will delete all of your WordPress "
+"database content."
+msgstr ""
+
+#: views/importer/importer.php:119
+msgid "If you have any problem with demo import please contact us via"
+msgstr ""
+
+#: views/importer/importer.php:127
+msgid "We will do our  best to help you. Please send us"
+msgstr ""
+
+#: views/importer/importer.php:129
+msgid "WordPress link and admin login and password"
+msgstr ""
+
+#: views/importer/importer.php:130
+msgid ""
+"Server Panel (e.g. cPanel - url / login / password) or some kind of FTP / "
+"SFTP credentials."
+msgstr ""
+
+#: views/importer/importer.php:133
+msgid ""
+"Please consider you also contact us with any other question, problem or "
+"feedback. We are ready to help you!"
+msgstr ""
+
+#: views/model/fields.php:23
+msgid "These fields are required:"
+msgstr ""
+
+#: views/model/fields.php:31
+msgid "Featured Listing"
+msgstr ""
+
+#: views/model/fields/attachments.php:14
+msgid "Select or Upload Files"
+msgstr ""
+
+#: views/model/fields/attachments.php:15
+msgid "Use this file"
+msgstr ""
+
+#: views/model/fields/attachments.php:66
+msgid "Add Files"
+msgstr ""
+
+#: views/model/fields/gallery.php:14
+msgid "Select or Upload Media"
+msgstr ""
+
+#: views/model/fields/gallery.php:15
+msgid "Use this media"
+msgstr ""
+
+#: views/model/fields/taxonomy.php:54
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: views/templates/template_placeholder.php:6
+msgid "Template Content"
+msgstr ""
+
+#: views/term/create.php:13 views/term/edit.php:15
+msgid "Search Form Placeholder"
+msgstr ""
+
+#: views/user/partials/confirmed.php:12
+msgid "Confirmed"
+msgstr ""
+
+#: views/user/partials/details.php:17
+msgid "Profile Image (Listivo Theme)"
+msgstr ""
+
+#: views/user/partials/details.php:39
+msgid "Set Image"
+msgstr ""
+
+#: views/user/partials/details.php:51
+msgid "Address (Listivo Theme)"
+msgstr ""
+
+#: views/user/partials/details.php:71
+msgid "Phone (Listivo Theme)"
+msgstr ""
+
+#: views/user/partials/details.php:89
+msgid "Enable WhatsApp"
+msgstr ""
+
+#: views/user/partials/social_profiles.php:12
+msgid "Facebook Profile"
+msgstr ""
+
+#: views/user/partials/social_profiles.php:30
+msgid "Twitter Profile"
+msgstr ""
+
+#: views/user/partials/social_profiles.php:48
+msgid "Instagram Profile"
+msgstr ""
+
+#: views/user/partials/social_profiles.php:66
+msgid "LinkedIn Profile"
+msgstr ""
+
+#: views/user/partials/social_profiles.php:84
+msgid "YouTube Profile"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Listivo Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://tangibledesign.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin is a part of Listivo Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TangibleDesign"
+msgstr ""
