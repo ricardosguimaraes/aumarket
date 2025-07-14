@@ -77,3 +77,87 @@ add_action('wp_enqueue_scripts', function() {
     // Passar variável global para o JS
     wp_localize_script('save-search', 'saveSearchUserLogged', is_user_logged_in());
 });
+
+// Shortcode para exibir buscas salvas do usuário logado
+add_shortcode('saved-short-code', function() {
+    if (!is_user_logged_in()) {
+        return '<p>You need to be logged in to view your saved searches.</p>';
+    }
+    $user_id = get_current_user_id();
+    $args = [
+        'post_type' => 'saech_save',
+        'posts_per_page' => -1,
+        'meta_query' => [
+            [
+                'key' => 'user_id',
+                'value' => $user_id,
+                'compare' => '='
+            ]
+        ]
+    ];
+    $searches = get_posts($args);
+    if (!$searches) {
+        return '<p>You have no saved searches.</p>';
+    }
+    ob_start();
+    echo '<ul id="saved-search-list">';
+    foreach ($searches as $search) {
+        $term = esc_html($search->post_title);
+        $id = (int)$search->ID;
+        echo "<li data-id='$id'>"
+            . "<span class='saved-term'>$term</span> "
+            . "<button class='delete-saved-search' data-id='$id'>Delete</button>"
+            . "</li>";
+    }
+    echo '</ul>';
+    ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.delete-saved-search').forEach(function(btn) {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (!confirm('Are you sure you want to delete this search?')) return;
+                var id = this.getAttribute('data-id');
+                var li = this.closest('li');
+                fetch(window.ajaxurl || '/wp-admin/admin-ajax.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: 'action=delete_saved_search&id=' + encodeURIComponent(id)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        li.remove();
+                    } else {
+                        alert(data.data && data.data.message ? data.data.message : 'Error deleting.');
+                    }
+                })
+                .catch(() => {
+                    alert('Error deleting.');
+                });
+            });
+        });
+    });
+    </script>
+    <?php
+    return ob_get_clean();
+});
+
+// Handler AJAX para deletar busca salva
+add_action('wp_ajax_delete_saved_search', function() {
+    if (!is_user_logged_in()) {
+        wp_send_json_error(['message' => 'Not logged in.']);
+    }
+    $user_id = get_current_user_id();
+    $id = isset($_POST['id']) ? intval($_POST['id']) : 0;
+    $post = get_post($id);
+    if (!$post || $post->post_type !== 'saech_save') {
+        wp_send_json_error(['message' => 'Search not found.']);
+    }
+    $saved_user_id = get_post_meta($id, 'user_id', true);
+    if ($saved_user_id != $user_id) {
+        wp_send_json_error(['message' => 'Permission denied.']);
+    }
+    wp_delete_post($id, true);
+    wp_send_json_success(['message' => 'Deleted.']);
+});
