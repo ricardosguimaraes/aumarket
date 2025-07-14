@@ -161,3 +161,51 @@ add_action('wp_ajax_delete_saved_search', function() {
     wp_delete_post($id, true);
     wp_send_json_success(['message' => 'Deleted.']);
 });
+
+// Notificação por e-mail ao publicar novo post/anúncio
+add_action('save_post', function($post_id, $post, $update) {
+    // Só agir em posts publicados e não revisões
+    if ($post->post_status !== 'publish' || wp_is_post_revision($post_id)) {
+        return;
+    }
+    // Evitar loop infinito
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+    // Não notificar para o custom post type de buscas salvas
+    if ($post->post_type === 'saech_save') {
+        return;
+    }
+    $title = strtolower($post->post_title);
+    $content = strtolower($post->post_content);
+    // Buscar todos os termos salvos
+    $args = [
+        'post_type' => 'saech_save',
+        'posts_per_page' => -1,
+        'post_status' => 'publish',
+    ];
+    $searches = get_posts($args);
+    $notified_users = [];
+    foreach ($searches as $search) {
+        $term = strtolower($search->post_title);
+        if (!$term) continue;
+        // Verifica se termo está no título ou conteúdo
+        if (strpos($title, $term) !== false || strpos($content, $term) !== false) {
+            $user_id = get_post_meta($search->ID, 'user_id', true);
+            if (!$user_id || in_array($user_id, $notified_users)) continue;
+            // Não notificar o autor do post
+            if ($user_id == $post->post_author) continue;
+            $user = get_user_by('id', $user_id);
+            if ($user && $user->user_email) {
+                $subject = 'New post matching your saved search';
+                $message = 'Hi ' . esc_html($user->display_name) . ",\n\n" .
+                    'A new post was published that matches your saved search term: "' . esc_html($term) . '".' . "\n\n" .
+                    'Title: ' . esc_html($post->post_title) . "\n" .
+                    'View: ' . get_permalink($post_id) . "\n\n" .
+                    'If you wish to stop receiving these notifications, remove the saved search from your account.';
+                wp_mail($user->user_email, $subject, $message);
+                $notified_users[] = $user_id;
+            }
+        }
+    }
+}, 10, 3);
