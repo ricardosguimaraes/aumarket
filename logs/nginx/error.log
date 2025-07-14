@@ -1,0 +1,1 @@
+2025/07/14 11:04:42 [error] 4520#17088: *8529 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:10008", host: "aumarket.local", referrer: "http://aumarket.local/wp-admin/index.php"
