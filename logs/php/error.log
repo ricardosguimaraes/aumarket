@@ -367,3 +367,9 @@ Stack trace:
 [14-Jul-2025 13:56:13 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
 [14-Jul-2025 13:56:14 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
 [14-Jul-2025 13:56:14 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[14-Jul-2025 14:43:37 UTC] Cron reschedule event error for hook: listivo/models/checkBumps, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}
+[14-Jul-2025 14:45:37 UTC] Cron reschedule event error for hook: listivo/models/checkExpired, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}
+[14-Jul-2025 14:46:37 UTC] Cron reschedule event error for hook: listivo/notifications/send, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}
+[14-Jul-2025 14:47:17 UTC] PHP Warning:  Undefined array key 1 in C:\Users\ricar\Local Sites\aumarket\app\public\wp-includes\class-wp-query.php on line 3733
+[14-Jul-2025 14:53:43 UTC] Cron reschedule event error for hook: listivo/notifications/modelExpire/check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}
+[14-Jul-2025 14:53:43 UTC] Cron unschedule event error for hook: listivo/notifications/modelExpire/check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":[],"interval":60}

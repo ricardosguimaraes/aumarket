@@ -488,6 +488,22 @@ $lstSimpleMenu = tdf_settings()->showMenuAccount();
                                                 </a>
                                             <?php endif; ?>
 
+                                            <!-- Your saved searches link -->
+                                            <a
+                                                class="listivo-user-dropdown__item"
+                                                href="<?php echo esc_url(site_url('/your-saved-searches/')); ?>"
+                                            >
+                                                <div class="listivo-user-dropdown__icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24">
+                                                        <circle cx="11" cy="11" r="8" stroke="#0098DA" stroke-width="2"/>
+                                                        <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="#0098DA" stroke-width="2" stroke-linecap="round"/>
+                                                    </svg>
+                                                </div>
+                                                <div class="listivo-user-dropdown__label">
+                                                    Your saved searches
+                                                </div>
+                                            </a>
+
                                             <?php if (tdf_settings()->messageSystem()) : ?>
                                                 <a
                                                         class="listivo-user-dropdown__item"
