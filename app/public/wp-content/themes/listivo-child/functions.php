@@ -32,3 +32,48 @@ add_action('wp_enqueue_scripts', function() {
         ]);
     }
 });
+
+// 1. Registrar Custom Post Type para salvar buscas
+add_action('init', function() {
+    register_post_type('saech_save', [
+        'label' => 'Buscas Salvas',
+        'public' => false,
+        'show_ui' => true,
+        'supports' => ['title'],
+        'capability_type' => 'post',
+        'menu_icon' => 'dashicons-search',
+    ]);
+});
+
+// 2. Handler AJAX para salvar busca
+add_action('wp_ajax_save_search_term', function() {
+    if (!is_user_logged_in()) {
+        wp_send_json_error(['message' => 'Usuário não logado.']);
+    }
+    $user_id = get_current_user_id();
+    $term = isset($_POST['term']) ? sanitize_text_field($_POST['term']) : '';
+    if (empty($term)) {
+        wp_send_json_error(['message' => 'Termo vazio.']);
+    }
+    // Salvar como post type personalizado
+    $post_id = wp_insert_post([
+        'post_type' => 'saech_save',
+        'post_title' => $term,
+        'post_status' => 'publish',
+        'meta_input' => [
+            'user_id' => $user_id,
+            'termo' => $term,
+        ],
+    ]);
+    if (is_wp_error($post_id)) {
+        wp_send_json_error(['message' => 'Erro ao salvar.']);
+    }
+    wp_send_json_success(['message' => 'Busca salva com sucesso!']);
+});
+
+add_action('wp_enqueue_scripts', function() {
+    // Enfileirar o JS de save search em todas as páginas
+    wp_enqueue_script('save-search', get_stylesheet_directory_uri() . '/save-search.js', [], null, true);
+    // Passar variável global para o JS
+    wp_localize_script('save-search', 'saveSearchUserLogged', is_user_logged_in());
+});
