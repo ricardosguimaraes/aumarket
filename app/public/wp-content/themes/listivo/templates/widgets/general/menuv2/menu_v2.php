@@ -488,6 +488,22 @@ $lstSimpleMenu = tdf_settings()->showMenuAccount();
                                                 </a>
                                             <?php endif; ?>
 
+                                            <!-- FAVORITES ITEM -->
+                                            <?php if (function_exists('listivo_favorites_url')) : ?>
+                                                <a
+                                                    class="listivo-user-dropdown__item"
+                                                    href="<?php echo esc_url(listivo_favorites_url()); ?>"
+                                                >
+                                                    <div class="listivo-user-dropdown__icon">
+                                                        <!-- Seu SVG de favoritos aqui -->
+                                                    </div>
+                                                    <div class="listivo-user-dropdown__label">
+                                                        <span>Favorites</span>
+                                                        <div class="listivo-user-dropdown__count">2</div>
+                                                    </div>
+                                                </a>
+                                            <?php endif; ?>
+
                                             <!-- Your saved searches link -->
                                             <a
                                                 class="listivo-user-dropdown__item"
