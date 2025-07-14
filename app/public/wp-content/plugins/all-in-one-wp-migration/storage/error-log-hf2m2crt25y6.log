@@ -1,0 +1,6 @@
+Jul 14 2025 13:26:09
+{"Number":2,"Message":"rmdir(C:\\Users\\ricar\\Local Sites\\aumarket\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\hf2m2crt25y6): Directory not empty","File":"C:\\Users\\ricar\\Local Sites\\aumarket\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":74}
+
+Jul 14 2025 13:26:09
+{"Number":2,"Message":"filesize(): stat failed for C:\\Users\\ricar\\Local Sites\\aumarket\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\hf2m2crt25y6\\aumarket-local-20250714-232601-muujnlphnjeb.wpress","File":"C:\\Users\\ricar\\Local Sites\\aumarket\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":233}
+

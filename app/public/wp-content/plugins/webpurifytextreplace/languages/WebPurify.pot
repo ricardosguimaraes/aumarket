@@ -1,0 +1,81 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WebPurify Profanity Filter\n"
+"POT-Creation-Date: 2016-07-21 09:54-0400\n"
+"PO-Revision-Date: 2016-07-21 09:54-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: webpurifytextreplace-options.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: webpurifytextreplace-options.php:65
+msgid "WebPurify Options"
+msgstr ""
+
+#. Author of the plugin/theme
+#: webpurifytextreplace-options.php:66
+msgid "WebPurify"
+msgstr ""
+
+#: webpurifytextreplace.php:114
+msgid "Configure: WebPurify Plugin"
+msgstr ""
+
+#: webpurifytextreplace.php:136
+msgid "Enter WebPurify API Key"
+msgstr ""
+
+#: webpurifytextreplace.php:145
+msgid "Language Preference"
+msgstr ""
+
+#: webpurifytextreplace.php:164
+msgid "Replacement Character"
+msgstr ""
+
+#: webpurifytextreplace.php:173
+msgid "Mode of Operation"
+msgstr ""
+
+#: webpurifytextreplace.php:183
+msgid ""
+"For the white list and black list, please enter each word on its own line."
+msgstr ""
+
+#: webpurifytextreplace.php:190
+msgid "White List"
+msgstr ""
+
+#: webpurifytextreplace.php:199
+msgid "Black List"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WebPurify Profanity Filter"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.webpurify.com/cms-integrations/wordpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Uses the powerful WebPurify Profanity Filter API to stop profanity in "
+"comments."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.webpurify.com"
+msgstr ""
